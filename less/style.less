@@ -287,14 +287,14 @@ ul {
 
 .m_banner {
 	 margin-top: 76px;
-	 height: 740px;
-	 background: url(../images/banner.jpg) no-repeat top center;
+	 height: 522px;
+	 background: url(../images/banner_middle.png) no-repeat top center;
 	 background-size: cover;
 	 .fw {
 		 height: 100%;
 	 }
 	 .desc {
-		 padding: 130px 0 0 30px;
+		 padding: 55px 0 0 30px;
 		 .logo {
 			 margin-bottom: 20px;
 		 }
@@ -454,6 +454,57 @@ ul {
 					 .border-radius(52px);
 					 font-weight: 700;
 					 background: #fff;
+				 }
+				 .icon {
+					 position: relative;
+					 height: 80px;
+					 text-align: center;
+					 &::before {
+						 content: '';
+						 display: inline-block;
+					 }
+					 &.icon_1 {
+						 &::before {
+							 width: 64px;
+							 height: 64px;
+							 background: url(../images/svg/mi_1.svg) no-repeat 0 0;
+						 }
+					 }
+					 &.icon_2 {
+						 &::before {
+							 width: 49px;
+							 height: 67px;
+							 background: url(../images/svg/mi_2.svg) no-repeat 0 0;
+						 }
+					 }
+					 &.icon_3 {
+						 &::before {
+							 width: 81px;
+							 height: 67px;
+							 background: url(../images/svg/mi_3.svg) no-repeat 0 0;
+						 }
+					 }
+					 &.icon_4 {
+						 &::before {
+							 width: 60px;
+							 height: 69px;
+							 background: url(../images/svg/mi_4.svg) no-repeat 0 0;
+						 }
+					 }
+					 &.icon_5 {
+						 &::before {
+							 width: 68px;
+							 height: 70px;
+							 background: url(../images/svg/mi_5.svg) no-repeat 0 0;
+						 }
+					 }
+					 &.icon_6 {
+						 &::before {
+							 width: 62px;
+							 height: 67px;
+							 background: url(../images/svg/mi_6.svg) no-repeat 0 0;
+						 }
+					 }
 				 }
 				 p {
 					 margin: 0;
@@ -1795,11 +1846,27 @@ ul {
 			 }
 		 }
 	 }
-	 
 	 .album {
+		 position: relative;
 		 padding: 0 90px;
 		 margin: 0 0 32px 0;
 		 font-size: 0px;
+		 height: 456px;
+	 }
+	 .album_tab {
+		 position: absolute;
+		 top: 0px;
+		 left: 90px;
+		 width: 920px;
+		 z-index: 1;
+		 visibility: hidden;
+		 opacity: 0;
+		 .transition(0.25s ease);
+		 &.active {
+			 visibility: visible;
+			 opacity: 1;
+			 z-index: 2;
+		 }
 	 }
 	 .preview {
 		 float: left;
@@ -1929,7 +1996,7 @@ ul {
 			 font-weight: 700;
 			 line-height: 45px;
 			 text-align: center;
-			 .transition(0.25s ease 0s);
+			 .transition(0.25s linear 0s);
 			 span {
 				 font-size: 11px;
 				 color: @base_white_color;

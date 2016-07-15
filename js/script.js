@@ -100,6 +100,12 @@ $(function() {
 		$(this).addClass('active');
 		var left_pos = $(this).position().left;
 		$('.m_archive .scrollbar span').css('left', left_pos+19+'px');
+		
+		var month_id = $(this).attr('href');
+		
+		$('.album_tab').removeClass('active');
+		$(month_id).addClass('active');
+		
 		return false;
 	});
 	
@@ -256,26 +262,17 @@ $(function() {
 		return false;
 	});
 	
-	/* Gallery */
-	$('.gallery, .preview').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		callbacks: {
-			buildControls: function() {
-			  // re-appends controls inside the main container
-			  this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
-			}
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-		}
+	/*gallery*/
+	$('.gallery_in a').click(function(){
+		var big_img = $(this).attr('href');
+		$(this).closest('.album_tab').find('.preview img').attr('src', big_img);
+		
+		$(this).closest('.gallery_in').find('a').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	});
+	$('.preview a').click(function(){
+		return false;
 	});
 });
 

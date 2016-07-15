@@ -29,7 +29,8 @@ function initialize() {
 	var directionsDisplayInf1 = new google.maps.DirectionsRenderer({
 		polylineOptions: {
 		  strokeColor: "#f49000",
-		  strokeWeight: 6
+		  strokeWeight: 6,
+		  strokeOpacity: 0.5
 		}
 	});
 	setMarkers(map_inf1, places_inf1);

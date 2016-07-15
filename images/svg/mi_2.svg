@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="49px" height="67px" viewBox="-0.248 -0.8 49 67" enable-background="new -0.248 -0.8 49 67"
+	 xml:space="preserve">
+<defs>
+</defs>
+<polyline fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	10.26,35.607 1,41.783 31.319,52.621 47.489,41.783 38.292,38.414 "/>
+<polyline fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	10.865,25.968 1,32.297 31.319,43.136 47.489,32.297 38.292,28.928 "/>
+<polyline fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	40.105,9.303 47.489,22.441 31.319,33.279 1,22.441 10.565,1 40.105,9.303 "/>
+<polyline fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	10.331,45.119 1,51.268 31.319,62.106 47.489,51.268 38.292,47.898 "/>
+<polyline fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	1,51.268 1,54.589 31.319,65.427 47.489,54.589 47.489,51.268 "/>
+<line fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="40.105" y1="9.303" x2="31.319" y2="33.279"/>
+<circle fill="none" stroke="#BFBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.717" cy="20.573" r="0.719"/>
+</svg>

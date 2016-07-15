@@ -4,4 +4,5 @@
 
 @media (min-width: 1600px) {
 	 .m_banner {height: 832px; background: url(../images/banner_big.jpg) top center no-repeat;}
+	 .m_banner .desc {padding-top: 132px;}
 }
