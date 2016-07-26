@@ -88,7 +88,7 @@ function initialize() {
 }
 
 var places = [
-	['Наш офис', 49.8008709, 23.985986, 'images/marker.png', 93, 93],
+	['Наш офис', 49.8008709, 23.985986, 'images/marker-a.png', 71, 93],
 ];
 
 var places_inf1 = [
