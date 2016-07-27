@@ -140,18 +140,28 @@ $(function() {
 		$('.floor_info .floor_number').text($(this).text());
 		return false;
 	});
-	$('.b-area-label, .area_map area').click(function(){
-		$('.m_flat .area').removeClass('active');
-		$('#f-flats').addClass('active');
-		
-		$('.area_menu a').removeClass('active');
-		$('.area_menu a').eq(1).addClass('active');
-		$('.area_active').css('left', $('.area_menu a').eq(1).position().left+'px');
-		
-		$('.area_flats').attr('data-subarea', 'p');
-		var section_id = $(this).attr('data-section-id');
-		$('.area_flats .plans').removeClass('active');
-		$('.area_flats .plans_'+section_id).addClass('active;');
+	$('.b-area-label').click(function(){
+		if(!$(this).hasClass('sold')) {
+			$('.m_flat .area').removeClass('active');
+			$('#f-flats').addClass('active');
+			
+			$('.area_menu a').removeClass('active');
+			$('.area_menu a').eq(1).addClass('active');
+			$('.area_active').css('left', $('.area_menu a').eq(1).position().left+'px');
+			
+			$('.area_flats').attr('data-subarea', 'p');
+			var section_id = $(this).attr('data-section-id');
+			if(section_id=='14'){
+				section_id = '13';
+			}
+			$('.area_flats .plans').removeClass('active');
+			$('.area_flats .plans_'+section_id).addClass('active');
+			$('.area_flats').attr('data-section', section_id);
+		}
+		return false;
+	});
+	$('.area_map area').click(function(){
+		$('.b-area-label-'+$(this).attr('data-section-id')).click();
 		return false;
 	});
 	$('.plans_flat .btn').click(function(){
@@ -165,13 +175,20 @@ $(function() {
 		$('.area_flats').attr('data-subarea', 'd');
 		var flat_id = $(this).parent().attr('data-flat-id');
 		$('.area_flats .flat_detail').removeClass('active');
-		$('.area_flats .flat_detail_'+flat_id).addClass('active;');
+		$('.area_flats .flat_detail_'+flat_id).addClass('active');
 		var flat_number = $(this).parent().attr('data-flat-number');
 		$('.flat_info .flat_number').text(flat_number);
+		$('.flat_select_text').text(flat_number);
+		$('.flat_items a').removeClass('active');
+		$('.flat_items a[data-flat-id="'+flat_id+'"]').addClass('active');
 	});
 	$('.plans_flat .btn').hover(function(){
 		var flat_number = $(this).parent().attr('data-flat-number');
 		$('.flat_info .flat_number').text(flat_number);
+	});
+	$('.flat_items a').click(function(){
+		$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').click();
+		return false;
 	});
 	$('.area_flats').on('click', '.back', function(){
 		var back_id = $('#f-flats').attr('data-subarea');
