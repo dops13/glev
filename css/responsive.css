@@ -62,8 +62,6 @@
 	 .m_archive .filter {padding: 0;}
 	 .m_archive .filter .month a {width: 86px;}
 	 .m_archive .filter .scrollbar span {width: 44px;}
-	 .m_news .news_carousel .items .item:last-child {display: none;}
-	 .m_news .news_carousel .items .item {margin-left: 22px;}
 	 
 	 /*contacts*/
 	 .m_contacts .cont_items .cont_item {width: 100%; text-align: center; margin-bottom: 45px;}
@@ -182,7 +180,11 @@
 	 .m_archive .filter .month a:last-child {display: inline-block;}
 	 
 	 /*news*/
-	 .m_news {display: none;}
+	 .m_news .pag .pagination {display: none;}
+	 .m_news .pag {margin: 20px 0;}
+	 .m_news .news_carousel .news_item .date {font-size: 12px;}
+	 .m_news .news_carousel .news_item .name {font-size: 18px; line-height: 30px;}
+	 .m_news .news_carousel .news_item p {font-size: 12px; line-height: 22px;}
 	 
 	 /*contacts*/
 	 .m_contacts .cont_form {width: auto; padding: 17px;}

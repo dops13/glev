@@ -29,7 +29,7 @@
 <rect x="3.648" y="129.195" fill="#9D9D9D" width="0.401" height="0.803"/>
 <path fill-rule="evenodd" clip-rule="evenodd" fill="#9D9D9D" d="M4.449,130.395H3.252v0.798h1.197V130.395z M6.45,116h0.798v-0.802
 	l0.4-0.4H6.45V116z"/>
-<polygon fill="#9D9D9D" points="6.853,114.001 6.853,114.798 8.851,114.399 9.25,114.001 "/>
+<polygon fill="#9D9D9D" points="6.853,114.001 6.853,114.797 8.851,114.399 9.25,114.001 "/>
 <g>
 	<defs>
 		<rect id="SVGID_1_" width="257.589" height="171.641"/>
@@ -733,18 +733,6 @@
 		C171.576,39.027,171.408,39.194,171.203,39.194c-0.206,0-0.373-0.167-0.373-0.373v-9.224h-42.041v8.85h42.414
 		c0.205,0,0.373,0.167,0.373,0.374C171.576,39.027,171.408,39.194,171.203,39.194"/>
 	<line clip-path="url(#SVGID_2_)" fill="#9D9D9D" x1="2.433" y1="167.21" x2="14.407" y2="97.303"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M194.451,102.589
-		c0,0-0.162,1.763,0.729,4.548s1.827,3.528,1.827,3.528l15.984-8.076"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M146.054,102.589
-		c0,0,0.162,1.646-0.729,4.245c-0.893,2.599-1.827,3.292-1.827,3.292l-15.985-7.537"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M180.412,125.969
-		c0,0-0.135-1.44,0.605-3.714c0.74-2.274,1.517-2.882,1.517-2.882l13.265,6.596"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M139.405,125.969
-		c0,0-0.13-1.396,0.587-3.601c0.718-2.205,1.47-2.793,1.47-2.793l12.858,6.394"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M124.844,121.522
-		c0,0,1.568,0.14,4.046-0.63c2.478-0.771,3.138-1.578,3.138-1.578l-7.184-13.805"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M213.555,162.385
-		c0,0-0.154,1.74,0.695,4.484c0.849,2.747,1.738,3.48,1.738,3.48l15.217-7.965"/>
 	
 		<rect x="212.406" y="160.814" clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.6" stroke-miterlimit="10" width="1.15" height="1.571"/>
 	
@@ -1414,5 +1402,17 @@
 		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.8" stroke-linecap="round" stroke-miterlimit="10" d="
 		M256.649,29.054h-26.533c-0.292,0-0.527-0.236-0.527-0.527v-3.362c0-0.291,0.235-0.527,0.527-0.527h26.533
 		c0.291,0,0.527,0.236,0.527,0.527v3.362C257.177,28.818,256.94,29.054,256.649,29.054z"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M212.555,101.309
+		c0,0,0.147-1.619-0.661-4.178c-0.81-2.557-1.656-3.239-1.656-3.239l-14.494,7.417"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M144.811,101.907
+		c0,0,0.146-1.618-0.662-4.177c-0.809-2.558-1.656-3.24-1.656-3.24l-14.494,7.417"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M123.608,105.286
+		c0,0-1.619-0.147-4.177,0.662c-2.558,0.809-3.24,1.655-3.24,1.655l7.417,14.494"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M154.748,126.525
+		c0,0,0.147-1.619-0.662-4.178c-0.809-2.558-1.655-3.239-1.655-3.239l-14.494,7.417"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M181.022,126.03
+		c0,0-0.146-1.619,0.662-4.177c0.809-2.557,1.656-3.24,1.656-3.24l14.494,7.417"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M231.582,163.064
+		c0,0,0.158,1.736-0.71,4.479c-0.867,2.742-1.776,3.474-1.776,3.474l-15.538-7.952"/>
 </g>
 </svg>

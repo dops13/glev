@@ -18,8 +18,6 @@
 	125.641,118.561 "/>
 <polyline fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" points="123.641,122.185 123.641,118.934 125.268,118.934 
 	125.268,118.561 125.641,118.561 125.641,118.187 122.893,118.187 122.893,122.932 "/>
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M52.088,149.751h-0.4l0.4,1.2V149.751z M22.895,150.951v-1.2
-	h-0.397L22.895,150.951z"/>
 <g>
 	<defs>
 		<rect id="SVGID_1_" width="127.359" height="156.594"/>
@@ -32,24 +30,9 @@
 		s0.373,0.167,0.373,0.374v97.4h-1.381"/>
 	<polyline clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" points="126.23,108.963 
 		126.865,108.963 126.865,11.19 127.238,11.19 127.238,108.59 125.857,108.59 	"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M7.727,118.561V79.37
-		c0-0.206,0.167-0.374,0.373-0.374s0.374,0.168,0.374,0.374v39.19c0,0.206-0.168,0.373-0.374,0.373S7.727,118.767,7.727,118.561"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M7.727,74.57V56.976
-		c0-0.207,0.167-0.374,0.373-0.374s0.374,0.167,0.374,0.374V74.57c0,0.206-0.168,0.373-0.374,0.373S7.727,74.776,7.727,74.57"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M42.092,56.602h1.598
 		c0.207,0,0.373,0.167,0.373,0.373s-0.166,0.374-0.373,0.374h-1.598c-0.206,0-0.373-0.168-0.373-0.374S41.886,56.602,42.092,56.602"
 		/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M62.883,56.602h1.602
-		c0.098,0,0.193,0.04,0.264,0.109c0.069,0.07,0.109,0.166,0.109,0.264v51.989c0,0.098-0.04,0.194-0.109,0.263
-		c-0.07,0.07-0.166,0.109-0.264,0.109h-2.025v32.019c0,0.206-0.168,0.373-0.373,0.373c-0.206,0-0.374-0.167-0.374-0.373v-32.391
-		c0-0.099,0.04-0.195,0.111-0.264c0.068-0.07,0.165-0.11,0.263-0.11h2.025V57.349h-1.229c-0.206,0-0.373-0.168-0.373-0.374
-		S62.677,56.602,62.883,56.602"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M52.886,141.728H52.09
-		c-0.207,0-0.374-0.167-0.374-0.374c0-0.205,0.167-0.373,0.374-0.373h0.796c0.206,0,0.373,0.168,0.373,0.373
-		C53.259,141.561,53.092,141.728,52.886,141.728"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M22.497,141.728H8.101
-		c-0.099,0-0.195-0.04-0.265-0.108c-0.069-0.07-0.11-0.166-0.11-0.266V118.56c0-0.206,0.168-0.373,0.375-0.373
-		c0.206,0,0.373,0.167,0.373,0.373v22.421h14.023c0.206,0,0.373,0.168,0.373,0.373C22.87,141.561,22.703,141.728,22.497,141.728"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M64.857,10.189v0.798
 		c0,0.206-0.167,0.374-0.373,0.374s-0.374-0.168-0.374-0.374v-0.798c0-0.206,0.168-0.373,0.374-0.373S64.857,9.984,64.857,10.189"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M64.11,10.189h0.373v1.172
@@ -62,14 +45,6 @@
 		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 		M41.966,39.38v16.033c0,0.202-0.284,0.365-0.635,0.365c-0.352,0-0.636-0.163-0.636-0.365V39.38c0-0.2,0.284-0.365,0.636-0.365
 		C41.682,39.015,41.966,39.18,41.966,39.38"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.101,78.997
-		c0.206,0,0.373,0.167,0.373,0.373v39.191c0-0.207-0.167-0.374-0.373-0.374v-9.5V96.376V78.997z"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.101,56.975h0.373V74.57
-		c0,0.207-0.167,0.373-0.373,0.373V56.975z"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M52.089,140.981h0.796
-		c0.206,0,0.373,0.167,0.373,0.373h-1.543C51.715,141.148,51.883,140.981,52.089,140.981"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.101,118.187
-		c0.206,0,0.373,0.167,0.373,0.373v22.422h14.023c0.206,0,0.374,0.167,0.374,0.373H8.101V118.187z"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M42.092,57.349H8.101
 		c-0.099,0-0.194-0.04-0.264-0.109c-0.07-0.07-0.11-0.166-0.11-0.264v-1.197c0-0.098,0.04-0.194,0.11-0.263
 		c0.07-0.07,0.165-0.11,0.264-0.11h33.79c0.206,0-0.626,0.167-0.626,0.373c0,0.207-0.168,0.374-0.374,0.374H8.474v0.449h33.618
@@ -94,21 +69,9 @@
 		c0.207,0,0.374,0.167,0.374,0.372v34.019h50.836v-33.646h-10.42c-0.097,0-0.195-0.04-0.263-0.108
 		c-0.071-0.07-0.112-0.166-0.112-0.265v-9.597c0-0.098,0.041-0.193,0.112-0.264c0.067-0.069,0.166-0.109,0.263-0.109h10.022v-96.4
 		c0-0.206,0.168-0.373,0.373-0.373S123.24,11.984,123.24,12.19"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M82.504,118.561v-9.598
-		c0-0.205,0.168-0.372,0.373-0.372c0.207,0,0.374,0.167,0.374,0.372v9.598c0,0.206-0.167,0.373-0.374,0.373
-		C82.672,118.934,82.504,118.767,82.504,118.561"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.101,15.015h32.79
 		c0.207,0,0.374,0.167,0.374,0.373c0,0.206-0.167,0.374-0.374,0.374H8.101c-0.206,0-0.373-0.168-0.373-0.374
 		C7.728,15.182,7.895,15.015,8.101,15.015"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.474,39.784v15.193
-		c0,0.206-0.167,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373V39.784c0-0.206,0.167-0.373,0.374-0.373
-		C8.307,39.411,8.474,39.578,8.474,39.784"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.474,25.786v5.598
-		c0,0.206-0.167,0.374-0.373,0.374c-0.207,0-0.374-0.168-0.374-0.374v-5.598c0-0.206,0.167-0.373,0.374-0.373
-		C8.307,25.414,8.474,25.581,8.474,25.786"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.474,106.164v11.196
-		c0,0.206-0.167,0.374-0.373,0.374c-0.207,0-0.374-0.168-0.374-0.374v-11.196c0-0.206,0.167-0.374,0.374-0.374
-		C8.307,105.79,8.474,105.958,8.474,106.164"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M44.862,8.189v4.001
 		c0,0.098-0.04,0.194-0.11,0.263c-0.07,0.07-0.165,0.11-0.263,0.11c-0.1,0-0.195-0.04-0.266-0.11
 		c-0.068-0.069-0.108-0.165-0.108-0.263V8.189c0-0.206,0.167-0.373,0.374-0.373C44.695,7.817,44.862,7.984,44.862,8.189v4.001
@@ -136,41 +99,10 @@
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M127.238,8.187v100.776
 		c0,0.098-0.039,0.195-0.109,0.265c-0.069,0.068-0.166,0.108-0.264,0.108h-3.998c-0.207,0-0.373-0.167-0.373-0.373
 		s0.166-0.373,0.373-0.373h3.625V8.187c0-0.206,0.168-0.373,0.373-0.373C127.072,7.814,127.238,7.981,127.238,8.187"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M1.275,8.189v13.198v95.172
-		c0,0.206-0.168,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373V21.388V8.189c0-0.206,0.167-0.373,0.374-0.373
-		C1.107,7.817,1.275,7.984,1.275,8.189"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M0.528,150.951v-37.194
-		c0-0.206,0.167-0.373,0.373-0.373c0.207,0,0.374,0.167,0.374,0.373v37.194c0,0.206-0.167,0.373-0.374,0.373
-		C0.695,151.324,0.528,151.157,0.528,150.951"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M0.901,7.816h7.199
-		c0.206,0,0.373,0.167,0.373,0.373c0,0.206-0.167,0.374-0.373,0.374H0.901c-0.206,0-0.373-0.168-0.373-0.374
-		C0.528,7.984,0.695,7.816,0.901,7.816"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M0.901,150.578h7.199
-		c0.206,0,0.373,0.167,0.373,0.373s-0.167,0.374-0.373,0.374H0.901c-0.206,0-0.373-0.168-0.373-0.374S0.695,150.578,0.901,150.578"
-		/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.474,28.186v113.169
-		c0,0.206-0.167,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373V28.186c0-0.206,0.167-0.373,0.374-0.373
-		C8.307,27.813,8.474,27.979,8.474,28.186"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.474,15.388v7.6
-		c0,0.206-0.167,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373v-7.6c0-0.206,0.167-0.373,0.374-0.373
-		C8.307,15.015,8.474,15.182,8.474,15.388"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.101,7.816h36.388
 		c0.098,0,0.195,0.04,0.263,0.109c0.07,0.07,0.111,0.166,0.111,0.264v7.198c0,0.099-0.041,0.195-0.111,0.264
 		c-0.068,0.07-0.165,0.11-0.263,0.11H8.101c-0.206,0-0.373-0.168-0.373-0.374s0.167-0.373,0.373-0.373h36.015V8.563H8.101
 		c-0.206,0-0.373-0.168-0.373-0.374C7.728,7.984,7.895,7.816,8.101,7.816"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M61.712,141.354v-22.794
-		c0-0.206,0.167-0.374,0.373-0.374s0.374,0.168,0.374,0.374v22.794c0,0.206-0.168,0.374-0.374,0.374S61.712,141.561,61.712,141.354"
-		/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M72.056,118.561v22.794
-		c0,0.206-0.167,0.374-0.373,0.374c-0.207,0-0.374-0.168-0.374-0.374v-22.794c0-0.206,0.167-0.373,0.374-0.373
-		C71.889,118.188,72.056,118.354,72.056,118.561"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M62.086,108.59h20.792
-		c0.099,0,0.194,0.04,0.264,0.109c0.07,0.069,0.108,0.166,0.108,0.264v9.597c0,0.099-0.038,0.194-0.108,0.265
-		c-0.069,0.068-0.165,0.109-0.264,0.109H71.683c-0.207,0-0.374-0.168-0.374-0.374s0.167-0.373,0.374-0.373h10.822v-8.85H62.086
-		c-0.206,0-0.373-0.167-0.373-0.374C61.713,108.757,61.88,108.59,62.086,108.59"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M61.712,118.561v-9.598
-		c0-0.205,0.167-0.372,0.373-0.372s0.374,0.167,0.374,0.372v9.598c0,0.206-0.168,0.373-0.374,0.373S61.712,118.767,61.712,118.561"
-		/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M125.482,109.337h-13.011
 		c-0.207,0-0.373-0.167-0.373-0.374c0-0.206,0.166-0.373,0.373-0.373"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M112.473,118.935
@@ -178,64 +110,12 @@
 		c0.204,0,0.372,0.167,0.372,0.373v9.225h12.638"/>
 	
 		<line clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" x1="112.473" y1="108.59" x2="125.857" y2="108.59"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M7.727,79.37v-4.8
-		c0-0.206,0.167-0.373,0.373-0.373c0.207,0,0.374,0.167,0.374,0.373v4.8c0,0.206-0.167,0.373-0.374,0.373
-		C7.894,79.743,7.727,79.576,7.727,79.37"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.474,22.988v5.198
-		c0,0.206-0.167,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373v-5.198c0-0.206,0.167-0.373,0.374-0.373
-		C8.307,22.615,8.474,22.782,8.474,22.988"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M24.896,15.015h5.198
 		c0.206,0,0.374,0.167,0.374,0.373c0,0.206-0.168,0.374-0.374,0.374h-5.198c-0.206,0-0.374-0.168-0.374-0.374
 		C24.521,15.182,24.689,15.015,24.896,15.015"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M8.101,140.981h14.396
-		c0.099,0,0.195,0.04,0.265,0.108c0.068,0.07,0.109,0.166,0.109,0.265v9.597c0,0.098-0.041,0.194-0.109,0.263
-		c-0.07,0.07-0.166,0.11-0.265,0.11H8.101c-0.206,0-0.373-0.167-0.373-0.373c0-0.207,0.167-0.374,0.373-0.374h14.023v-8.849H8.101
-		c-0.206,0-0.373-0.168-0.373-0.374S7.895,140.981,8.101,140.981"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M52.089,140.981h9.996
-		c0.206,0,0.373,0.167,0.373,0.373s-0.167,0.374-0.373,0.374h-9.996c-0.206,0-0.374-0.168-0.374-0.374
-		S51.883,140.981,52.089,140.981"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M72.056,141.354v9.597
-		c0,0.098-0.04,0.194-0.109,0.263c-0.069,0.07-0.166,0.11-0.264,0.11H52.09c-0.099,0-0.195-0.04-0.264-0.11
-		c-0.07-0.068-0.11-0.165-0.11-0.263v-9.223H22.498c-0.206,0-0.374-0.168-0.374-0.374s0.168-0.372,0.374-0.372H52.09
-		c0.097,0,0.193,0.039,0.263,0.108c0.07,0.069,0.11,0.165,0.11,0.264v9.223h18.846v-9.223c0-0.206,0.167-0.372,0.374-0.372
-		C71.889,140.982,72.056,141.148,72.056,141.354"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M124.895,121.807v-12.086
 		c0-0.626,0.168-1.13,0.373-1.13c0.206,0,0.375,0.504,0.375,1.13v12.086c0,0.623-0.169,1.127-0.375,1.127
 		C125.063,122.934,124.895,122.43,124.895,121.807"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M71.688,155.723H52.055
-		c-0.095,0-0.19-0.04-0.259-0.109c-0.068-0.07-0.107-0.166-0.107-0.264v-4.398c0-0.099,0.039-0.194,0.107-0.264
-		c0.069-0.07,0.164-0.11,0.259-0.11h17.28h2.354c0.097,0,0.191,0.04,0.26,0.11c0.067,0.069,0.107,0.165,0.107,0.264v2v2.398
-		C72.056,155.556,71.892,155.723,71.688,155.723c-0.202,0-0.366-0.167-0.366-0.373v-2.398v-1.627h-1.987H52.421v3.651h19.267
-		c0.203,0,0.367,0.167,0.367,0.374C72.056,155.556,71.892,155.723,71.688,155.723"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M22.592,155.723H0.497
-		c-0.096,0-0.191-0.04-0.26-0.109c-0.069-0.07-0.109-0.166-0.109-0.264v-2.398v-2c0-0.099,0.04-0.194,0.109-0.264
-		c0.069-0.07,0.164-0.11,0.26-0.11h2.367h19.728c0.097,0,0.191,0.04,0.26,0.11c0.068,0.069,0.108,0.165,0.108,0.264v4.398
-		C22.96,155.556,22.795,155.723,22.592,155.723c-0.204,0-0.368-0.167-0.368-0.373v-4.025H2.864H0.866v1.627v2.024h21.726
-		c0.203,0,0.368,0.167,0.368,0.374C22.96,155.556,22.795,155.723,22.592,155.723"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M69.658,150.951v2
-		c0,0.206-0.167,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373v-2c0-0.206,0.167-0.373,0.374-0.373
-		C69.491,150.578,69.658,150.745,69.658,150.951"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M2.526,152.951v-2
-		c0-0.206,0.167-0.373,0.373-0.373c0.207,0,0.374,0.167,0.374,0.373v2c0,0.206-0.167,0.373-0.374,0.373
-		C2.693,153.324,2.526,153.157,2.526,152.951"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M69.334,153.324H52.056
-		c-0.203,0-0.368-0.167-0.368-0.373s0.165-0.374,0.368-0.374h17.278c0.203,0,0.367,0.168,0.367,0.374S69.537,153.324,69.334,153.324
-		"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M22.527,153.324H2.894
-		c-0.203,0-0.367-0.167-0.367-0.373s0.164-0.374,0.367-0.374h19.634c0.203,0,0.367,0.168,0.367,0.374S22.73,153.324,22.527,153.324"
-		/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M22.871,143.352v6.398
-		c0,0.206-0.168,0.373-0.373,0.373c-0.206,0-0.374-0.167-0.374-0.373v-6.398c0-0.206,0.168-0.373,0.374-0.373
-		C22.703,142.979,22.871,143.146,22.871,143.352"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M51.716,149.751v-6.399
-		c0-0.207,0.167-0.374,0.374-0.374c0.205,0,0.373,0.167,0.373,0.374v6.399c0,0.206-0.168,0.373-0.373,0.373
-		C51.883,150.124,51.716,149.957,51.716,149.751"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M51.716,156.15v-0.801
-		c0-0.206,0.167-0.373,0.374-0.373c0.205,0,0.373,0.167,0.373,0.373v0.801c0,0.206-0.168,0.373-0.373,0.373
-		C51.883,156.523,51.716,156.356,51.716,156.15"/>
-	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M22.871,155.35v0.427H52.09
-		c0.205,0,0.373,0.167,0.373,0.374c0,0.206-0.168,0.373-0.373,0.373H22.498c-0.1,0-0.195-0.04-0.265-0.11
-		c-0.069-0.068-0.109-0.165-0.109-0.263v-0.801c0-0.206,0.168-0.373,0.374-0.373C22.703,154.977,22.871,155.144,22.871,155.35"/>
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M124.895,155.35v-32.791
 		c0-0.206,0.168-0.373,0.373-0.373c0.206,0,0.375,0.167,0.375,0.373v32.791c0,0.206-0.169,0.373-0.375,0.373
 		C125.063,155.723,124.895,155.556,124.895,155.35"/>
@@ -255,16 +135,6 @@
 		c0,0.206-0.169,0.373-0.373,0.373c-0.207,0-0.374-0.167-0.374-0.373v-2.398c0-0.099,0.04-0.194,0.109-0.264
 		c0.07-0.07,0.166-0.11,0.265-0.11h51.583c0.207,0,0.373,0.168,0.373,0.374S123.473,153.324,123.266,153.324"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" x1="48.328" y1="0.135" x2="63.544" y2="8.099"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M45.895,8.099
-		c0,0-0.154-1.739,0.694-4.485c0.85-2.747,1.74-3.479,1.74-3.479"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M42.092,25.165
-		c0,0,1.423-0.123,3.671,0.556c2.247,0.679,2.847,1.39,2.847,1.39l-6.518,12.167"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M43.635,55.543
-		c0,0-0.169-1.842,0.758-4.75c0.927-2.909,1.898-3.685,1.898-3.685l16.604,8.435"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.232" stroke-miterlimit="10" d="M64.571,24.197
-		c0,0-1.721-0.166-4.437,0.749c-2.715,0.915-3.439,1.874-3.439,1.874l7.876,16.399"/>
-	
 		<rect x="63.333" y="8.017" clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.6" stroke-miterlimit="10" width="1.151" height="1.572"/>
 	
 		<rect x="44.489" y="8.017" clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.6" stroke-miterlimit="10" width="1.15" height="1.572"/>
@@ -279,325 +149,325 @@
 	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M127.238,8.366H64.471
 		c-0.206,0-0.374-0.167-0.374-0.373c0-0.207,0.168-0.374,0.374-0.374h62.768"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.476" y1="141.124" x2="19.477" y2="57.235"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="22.476" y1="108.59" x2="22.477" y2="57.236"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.996" y1="91.142" x2="13.085" y2="91.142"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.996" y1="72.14" x2="15.085" y2="72.14"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.085" y1="91.142" x2="13.175" y2="91.142"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.085" y1="72.14" x2="15.175" y2="72.14"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.175" y1="91.142" x2="13.265" y2="91.053"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.175" y1="72.14" x2="15.265" y2="72.051"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.265" y1="91.052" x2="13.354" y2="90.963"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.265" y1="72.051" x2="15.354" y2="71.962"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.354" y1="90.963" x2="13.354" y2="90.874"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.354" y1="71.961" x2="15.354" y2="71.873"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.354" y1="90.874" x2="13.354" y2="90.785"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.354" y1="71.873" x2="15.354" y2="71.784"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.354" y1="90.784" x2="13.265" y2="90.694"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.354" y1="71.783" x2="15.265" y2="71.693"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.265" y1="90.694" x2="13.265" y2="90.605"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.265" y1="71.693" x2="15.265" y2="71.604"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.265" y1="90.605" x2="13.175" y2="90.605"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.265" y1="71.604" x2="15.175" y2="71.604"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.175" y1="90.605" x2="13.085" y2="90.517"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.175" y1="71.604" x2="15.085" y2="71.516"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.085" y1="90.517" x2="12.996" y2="90.517"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.085" y1="71.516" x2="14.996" y2="71.516"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.996" y1="90.517" x2="12.907" y2="90.517"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.996" y1="71.516" x2="14.907" y2="71.516"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.907" y1="90.517" x2="12.817" y2="90.605"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.907" y1="71.516" x2="14.817" y2="71.604"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.817" y1="90.605" x2="12.728" y2="90.694"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.817" y1="71.604" x2="14.728" y2="71.693"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.728" y1="90.694" x2="12.728" y2="90.784"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.728" y1="71.693" x2="14.728" y2="71.783"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.728" y1="90.784" x2="12.728" y2="90.873"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.728" y1="71.783" x2="14.728" y2="71.872"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.728" y1="90.874" x2="12.728" y2="90.963"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.728" y1="71.873" x2="14.728" y2="71.961"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.728" y1="90.963" x2="12.728" y2="91.052"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.728" y1="71.961" x2="14.728" y2="72.05"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.728" y1="91.052" x2="12.817" y2="91.052"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.728" y1="72.051" x2="14.818" y2="72.051"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.817" y1="91.052" x2="12.817" y2="91.141"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.817" y1="72.051" x2="14.817" y2="72.14"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.817" y1="91.142" x2="12.907" y2="91.142"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.817" y1="72.14" x2="14.908" y2="72.14"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.907" y1="91.142" x2="12.996" y2="91.142"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.907" y1="72.14" x2="14.996" y2="72.14"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.192" y1="93.375" x2="12.192" y2="93.465"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.192" y1="74.374" x2="14.192" y2="74.463"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.192" y1="93.465" x2="12.282" y2="93.465"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.192" y1="74.463" x2="14.283" y2="74.463"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.282" y1="93.465" x2="12.282" y2="93.554"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.282" y1="74.463" x2="14.282" y2="74.552"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.282" y1="93.554" x2="12.37" y2="93.643"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.282" y1="74.553" x2="14.37" y2="74.642"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.37" y1="93.643" x2="12.46" y2="93.643"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.37" y1="74.642" x2="14.46" y2="74.642"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.46" y1="93.643" x2="12.55" y2="93.643"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.46" y1="74.642" x2="14.55" y2="74.642"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.55" y1="93.643" x2="16.659" y2="93.643"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.55" y1="74.642" x2="18.659" y2="74.642"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.659" y1="93.643" x2="16.749" y2="93.643"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.659" y1="74.642" x2="18.75" y2="74.642"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.749" y1="93.643" x2="16.837" y2="93.643"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.749" y1="74.642" x2="18.837" y2="74.642"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.837" y1="93.643" x2="16.927" y2="93.554"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.837" y1="74.642" x2="18.927" y2="74.553"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.927" y1="93.554" x2="16.927" y2="93.465"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.927" y1="74.553" x2="18.927" y2="74.464"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.927" y1="93.465" x2="17.017" y2="93.465"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.927" y1="74.463" x2="19.017" y2="74.463"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.017" y1="93.465" x2="17.017" y2="93.375"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.017" y1="74.463" x2="19.017" y2="74.374"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.017" y1="93.375" x2="17.017" y2="88.373"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.017" y1="74.374" x2="19.017" y2="69.372"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.017" y1="88.372" x2="17.017" y2="88.282"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.017" y1="69.371" x2="19.017" y2="69.281"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.017" y1="88.282" x2="16.927" y2="88.193"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.017" y1="69.281" x2="18.927" y2="69.192"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.927" y1="88.193" x2="16.837" y2="88.104"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.927" y1="69.192" x2="18.837" y2="69.104"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.837" y1="88.104" x2="16.749" y2="88.104"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.837" y1="69.103" x2="18.749" y2="69.103"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.749" y1="88.104" x2="16.659" y2="88.104"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.749" y1="69.103" x2="18.659" y2="69.103"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.659" y1="88.104" x2="12.55" y2="88.104"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.659" y1="69.103" x2="14.55" y2="69.103"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.55" y1="88.104" x2="12.46" y2="88.104"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.55" y1="69.103" x2="14.46" y2="69.103"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.46" y1="88.104" x2="12.37" y2="88.104"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.46" y1="69.103" x2="14.37" y2="69.103"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.37" y1="88.104" x2="12.282" y2="88.193"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.37" y1="69.103" x2="14.282" y2="69.192"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.282" y1="88.193" x2="12.192" y2="88.282"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.282" y1="69.192" x2="14.192" y2="69.281"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.192" y1="88.282" x2="12.192" y2="88.372"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.192" y1="69.281" x2="14.192" y2="69.371"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.192" y1="88.372" x2="12.192" y2="93.374"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.192" y1="69.371" x2="14.192" y2="74.373"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.388" y1="81.673" x2="11.388" y2="94.446"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.388" y1="62.671" x2="13.388" y2="75.445"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.388" y1="94.447" x2="17.822" y2="94.447"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.388" y1="75.446" x2="19.822" y2="75.446"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.821" y1="94.447" x2="17.821" y2="81.673"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.821" y1="75.446" x2="19.821" y2="62.672"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.821" y1="81.673" x2="11.387" y2="81.673"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.821" y1="62.671" x2="13.387" y2="62.671"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.213" y1="82.477" x2="16.213" y2="87.301"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.213" y1="63.475" x2="18.213" y2="68.299"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.409" y1="82.477" x2="15.409" y2="87.301"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.409" y1="63.475" x2="17.409" y2="68.299"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.604" y1="82.477" x2="14.604" y2="87.301"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.604" y1="63.475" x2="16.604" y2="68.299"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.8" y1="82.477" x2="13.8" y2="87.301"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.8" y1="63.475" x2="15.8" y2="68.299"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.996" y1="82.477" x2="12.996" y2="87.301"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.996" y1="63.475" x2="14.996" y2="68.299"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.017" y1="87.3" x2="17.017" y2="82.476"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.017" y1="68.299" x2="19.017" y2="63.475"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.192" y1="82.477" x2="12.192" y2="87.301"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.192" y1="63.475" x2="14.192" y2="68.299"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="10.998" y1="108.729" x2="10.998" y2="109.04"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.998" y1="89.727" x2="12.998" y2="90.039"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="10.998" y1="109.04" x2="11.153" y2="109.431"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.998" y1="90.039" x2="13.153" y2="90.43"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.153" y1="109.431" x2="11.387" y2="109.743"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.153" y1="90.43" x2="13.387" y2="90.742"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.388" y1="109.743" x2="11.7" y2="109.899"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.388" y1="90.741" x2="13.7" y2="90.897"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.7" y1="109.899" x2="12.012" y2="110.056"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.7" y1="90.898" x2="14.012" y2="91.055"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.013" y1="110.056" x2="12.404" y2="110.134"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.013" y1="91.055" x2="14.404" y2="91.133"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.403" y1="110.134" x2="12.715" y2="110.056"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.403" y1="91.132" x2="14.715" y2="91.055"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.716" y1="110.056" x2="13.107" y2="109.898"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.716" y1="91.055" x2="15.107" y2="90.897"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.106" y1="109.899" x2="13.34" y2="109.743"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.106" y1="90.898" x2="15.341" y2="90.742"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.341" y1="109.743" x2="13.575" y2="109.431"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.341" y1="90.741" x2="15.575" y2="90.43"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.575" y1="109.431" x2="13.731" y2="109.04"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.575" y1="90.43" x2="15.731" y2="90.039"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.731" y1="109.04" x2="13.81" y2="108.728"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.731" y1="90.039" x2="15.81" y2="89.727"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.81" y1="108.729" x2="13.731" y2="108.337"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.81" y1="89.727" x2="15.732" y2="89.336"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.731" y1="108.337" x2="13.576" y2="108.025"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.731" y1="89.336" x2="15.576" y2="89.023"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.575" y1="108.025" x2="13.341" y2="107.713"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.575" y1="89.023" x2="15.341" y2="88.712"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.341" y1="107.713" x2="13.107" y2="107.479"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.341" y1="88.712" x2="15.107" y2="88.478"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.106" y1="107.479" x2="12.715" y2="107.4"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.106" y1="88.478" x2="14.716" y2="88.399"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.716" y1="107.4" x2="12.404" y2="107.321"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.716" y1="88.399" x2="14.404" y2="88.32"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.403" y1="107.322" x2="12.012" y2="107.401"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.403" y1="88.321" x2="14.012" y2="88.399"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.013" y1="107.4" x2="11.701" y2="107.479"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.013" y1="88.399" x2="13.701" y2="88.478"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.7" y1="107.479" x2="11.388" y2="107.713"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.7" y1="88.478" x2="13.388" y2="88.712"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.388" y1="107.713" x2="11.154" y2="108.025"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.388" y1="88.712" x2="13.154" y2="89.023"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.153" y1="108.025" x2="10.999" y2="108.337"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.153" y1="89.023" x2="12.999" y2="89.336"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="10.998" y1="108.337" x2="10.998" y2="108.729"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.998" y1="89.336" x2="12.998" y2="89.727"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.215" y1="104.511" x2="15.215" y2="104.901"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.215" y1="85.51" x2="17.215" y2="85.9"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.215" y1="104.901" x2="15.371" y2="105.214"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.215" y1="85.9" x2="17.371" y2="86.213"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.371" y1="105.214" x2="15.604" y2="105.526"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.371" y1="86.213" x2="17.604" y2="86.525"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.604" y1="105.526" x2="15.838" y2="105.761"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.604" y1="86.525" x2="17.838" y2="86.76"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.839" y1="105.761" x2="16.23" y2="105.839"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.839" y1="86.76" x2="18.23" y2="86.838"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.229" y1="105.839" x2="16.542" y2="105.917"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.229" y1="86.838" x2="18.542" y2="86.915"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.542" y1="105.917" x2="16.933" y2="105.839"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.542" y1="86.915" x2="18.933" y2="86.838"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.933" y1="105.839" x2="17.245" y2="105.761"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.933" y1="86.838" x2="19.245" y2="86.76"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.245" y1="105.761" x2="17.557" y2="105.526"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.245" y1="86.76" x2="19.557" y2="86.525"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.558" y1="105.526" x2="17.792" y2="105.215"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.558" y1="86.525" x2="19.792" y2="86.214"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.792" y1="105.214" x2="17.948" y2="104.902"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.792" y1="86.213" x2="19.948" y2="85.901"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.948" y1="104.901" x2="17.948" y2="104.511"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.948" y1="85.9" x2="19.948" y2="85.51"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.948" y1="104.511" x2="17.948" y2="104.199"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.948" y1="85.51" x2="19.948" y2="85.197"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.948" y1="104.199" x2="17.792" y2="103.809"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.948" y1="85.197" x2="19.792" y2="84.808"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.792" y1="103.809" x2="17.558" y2="103.574"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.792" y1="84.808" x2="19.558" y2="84.572"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.558" y1="103.574" x2="17.246" y2="103.34"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.558" y1="84.572" x2="19.246" y2="84.339"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.245" y1="103.34" x2="16.933" y2="103.184"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.245" y1="84.338" x2="18.933" y2="84.183"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.933" y1="103.184" x2="16.542" y2="103.105"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.933" y1="84.183" x2="18.542" y2="84.104"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.542" y1="103.105" x2="16.23" y2="103.184"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.542" y1="84.104" x2="18.23" y2="84.183"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.229" y1="103.184" x2="15.838" y2="103.34"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.229" y1="84.183" x2="17.838" y2="84.339"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.839" y1="103.34" x2="15.605" y2="103.573"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.839" y1="84.338" x2="17.605" y2="84.572"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.604" y1="103.574" x2="15.372" y2="103.809"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.604" y1="84.572" x2="17.372" y2="84.808"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.371" y1="103.809" x2="15.215" y2="104.199"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.371" y1="84.808" x2="17.215" y2="85.197"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.215" y1="104.199" x2="15.215" y2="104.511"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.215" y1="85.197" x2="17.215" y2="85.51"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.388" y1="104.511" x2="11.467" y2="104.745"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.388" y1="85.51" x2="13.467" y2="85.744"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.467" y1="104.745" x2="11.545" y2="104.979"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.467" y1="85.743" x2="13.545" y2="85.979"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.545" y1="104.979" x2="11.7" y2="105.214"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.545" y1="85.979" x2="13.7" y2="86.213"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.7" y1="105.214" x2="11.856" y2="105.37"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.7" y1="86.213" x2="13.856" y2="86.369"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.856" y1="105.37" x2="12.168" y2="105.447"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.856" y1="86.368" x2="14.168" y2="86.446"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.169" y1="105.448" x2="12.403" y2="105.527"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.169" y1="86.446" x2="14.403" y2="86.525"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.403" y1="105.526" x2="12.637" y2="105.447"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.403" y1="86.525" x2="14.637" y2="86.446"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.638" y1="105.448" x2="12.872" y2="105.37"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.638" y1="86.446" x2="14.872" y2="86.369"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.872" y1="105.37" x2="13.106" y2="105.214"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.872" y1="86.368" x2="15.106" y2="86.213"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.106" y1="105.214" x2="13.263" y2="104.98"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.106" y1="86.213" x2="15.263" y2="85.979"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.263" y1="104.979" x2="13.341" y2="104.745"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.263" y1="85.979" x2="15.341" y2="85.743"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.341" y1="104.745" x2="13.341" y2="104.511"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.341" y1="85.743" x2="15.341" y2="85.51"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.341" y1="104.511" x2="13.341" y2="104.276"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.341" y1="85.51" x2="15.341" y2="85.275"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.341" y1="104.276" x2="13.263" y2="104.043"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.341" y1="85.275" x2="15.263" y2="85.041"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.263" y1="104.042" x2="13.107" y2="103.81"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.263" y1="85.041" x2="15.107" y2="84.808"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.106" y1="103.809" x2="12.873" y2="103.651"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.106" y1="84.808" x2="14.873" y2="84.65"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.872" y1="103.652" x2="12.638" y2="103.574"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.872" y1="84.65" x2="14.638" y2="84.573"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.638" y1="103.574" x2="12.404" y2="103.574"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.638" y1="84.572" x2="14.404" y2="84.572"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.403" y1="103.574" x2="12.169" y2="103.574"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.403" y1="84.572" x2="14.169" y2="84.572"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.169" y1="103.574" x2="11.857" y2="103.651"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.169" y1="84.572" x2="13.857" y2="84.65"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.856" y1="103.652" x2="11.701" y2="103.809"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.856" y1="84.65" x2="13.701" y2="84.808"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.7" y1="103.809" x2="11.545" y2="104.042"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.7" y1="84.808" x2="13.545" y2="85.041"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.545" y1="104.042" x2="11.467" y2="104.276"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.545" y1="85.041" x2="13.467" y2="85.275"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.467" y1="104.276" x2="11.388" y2="104.511"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.467" y1="85.275" x2="13.388" y2="85.51"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.604" y1="108.729" x2="15.604" y2="108.962"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.604" y1="89.727" x2="17.604" y2="89.961"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.604" y1="108.962" x2="15.761" y2="109.196"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.604" y1="89.961" x2="17.761" y2="90.195"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.761" y1="109.196" x2="15.917" y2="109.43"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.761" y1="90.194" x2="17.917" y2="90.429"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.917" y1="109.431" x2="16.074" y2="109.587"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.917" y1="90.43" x2="18.074" y2="90.586"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.074" y1="109.587" x2="16.307" y2="109.665"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.074" y1="90.586" x2="18.307" y2="90.664"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.308" y1="109.665" x2="16.542" y2="109.665"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.308" y1="90.664" x2="18.542" y2="90.664"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.542" y1="109.665" x2="16.854" y2="109.665"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.542" y1="90.664" x2="18.854" y2="90.664"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.854" y1="109.665" x2="17.088" y2="109.587"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.854" y1="90.664" x2="19.088" y2="90.586"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.089" y1="109.587" x2="17.245" y2="109.431"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.089" y1="90.586" x2="19.245" y2="90.43"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.245" y1="109.431" x2="17.401" y2="109.196"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.245" y1="90.429" x2="19.401" y2="90.195"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.401" y1="109.196" x2="17.558" y2="108.962"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.401" y1="90.194" x2="19.558" y2="89.961"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.558" y1="108.962" x2="17.558" y2="108.729"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.558" y1="89.961" x2="19.558" y2="89.727"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.558" y1="108.729" x2="17.558" y2="108.493"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.558" y1="89.727" x2="19.558" y2="89.492"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.558" y1="108.493" x2="17.401" y2="108.26"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.558" y1="89.492" x2="19.402" y2="89.258"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.401" y1="108.26" x2="17.246" y2="108.025"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.401" y1="89.259" x2="19.246" y2="89.024"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.245" y1="108.025" x2="17.089" y2="107.868"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.245" y1="89.023" x2="19.089" y2="88.867"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.089" y1="107.869" x2="16.855" y2="107.791"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19.089" y1="88.868" x2="18.855" y2="88.79"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.854" y1="107.791" x2="16.542" y2="107.713"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.854" y1="88.789" x2="18.542" y2="88.712"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.542" y1="107.713" x2="16.308" y2="107.791"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.542" y1="88.712" x2="18.308" y2="88.79"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.308" y1="107.791" x2="16.075" y2="107.869"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.308" y1="88.789" x2="18.075" y2="88.867"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.074" y1="107.868" x2="15.917" y2="108.025"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.074" y1="88.867" x2="17.917" y2="89.024"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.917" y1="108.025" x2="15.761" y2="108.259"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.917" y1="89.023" x2="17.761" y2="89.258"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.761" y1="108.26" x2="15.605" y2="108.493"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.761" y1="89.259" x2="17.605" y2="89.492"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.604" y1="108.493" x2="15.604" y2="108.729"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.604" y1="89.492" x2="17.604" y2="89.728"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.65" y1="102.402" x2="10.296" y2="102.402"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="20.65" y1="83.401" x2="12.295" y2="83.401"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="10.296" y1="102.402" x2="10.296" y2="110.837"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.296" y1="83.401" x2="12.296" y2="91.835"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="10.296" y1="110.836" x2="18.65" y2="110.836"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.296" y1="91.835" x2="20.651" y2="91.835"/>
 	
-		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.65" y1="110.836" x2="18.65" y2="102.402"/>
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="20.65" y1="91.835" x2="20.65" y2="83.4"/>
 	
 		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9B9D9E" stroke-width="0.573" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.528" y1="49.003" x2="11.421" y2="49.003"/>
 	
@@ -905,5 +775,40 @@
 	<path clip-path="url(#SVGID_2_)" fill="#9B9D9E" d="M35.08,44.852c1.283,0,2.327,1.044,2.327,2.327
 		c0,1.283-1.044,2.327-2.327,2.327c-1.283,0-2.327-1.044-2.327-2.327C32.753,45.896,33.797,44.852,35.08,44.852 M35.08,44.279
 		c-1.602,0-2.9,1.298-2.9,2.9c0,1.602,1.298,2.9,2.9,2.9s2.9-1.298,2.9-2.9C37.98,45.577,36.682,44.279,35.08,44.279"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M46.268,9.391
+		c0,0-0.154-1.739,0.695-4.485c0.849-2.747,1.739-3.479,1.739-3.479l15.216,7.964"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M42.465,39.717
+		c0,0,1.423,0.123,3.671-0.556c2.247-0.679,2.847-1.39,2.847-1.39l-6.518-12.167"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M44.008,56.835
+		c0,0-0.169-1.842,0.758-4.75c0.927-2.909,1.898-3.685,1.898-3.685l16.604,8.435"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#9C9E9F" stroke-width="0.232" stroke-miterlimit="10" d="M64.944,25.489
+		c0,0-1.72-0.166-4.436,0.749c-2.716,0.915-3.44,1.874-3.44,1.874l7.876,16.399"/>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M70.273,118.627v3.625H59.477v-0.374
+		H69.9v-3.624h-1.623v0.373H70.273z M18.691,118.254H16.69v3.998h13.997v-0.374H17.063v-3.251h1.628V118.254z"/>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M18.691,118.254v0.373V118.254h-0.373
+		v2.372h11.996v1.252H17.063v-3.251h1.628V118.254h0.373v-0.374h-2.748v4.745H31.06v-2.745H19.063v-1.626H18.691z M70.273,118.627
+		v-0.373h-0.374v3.624H59.85v-1.254h8.8v-1.997H70.273v-0.373h0.373v-0.374h-2.743v1.998h-8.8v2.747h11.543v-4.371h-0.373V118.627z"
+		/>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M68.277,120.625h-8.8
+		c-0.206,0-0.374-0.167-0.374-0.373s0.168-0.374,0.374-0.374h8.8c0.206,0,0.373,0.168,0.373,0.374S68.483,120.625,68.277,120.625"/>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M59.867,112.028H29.385
+		c-0.213,0-0.385-0.167-0.385-0.373c0-0.207,0.172-0.374,0.385-0.374h30.482c0.212,0,0.384,0.167,0.384,0.374
+		C60.25,111.861,60.079,112.028,59.867,112.028"/>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M59.504,123.05v-0.799
+		c0-0.206,0.167-0.373,0.373-0.373s0.374,0.167,0.374,0.373v0.799c0,0.205-0.168,0.372-0.374,0.372S59.504,123.255,59.504,123.05"/>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M30.66,122.252v0.428l29.218-0.004
+		c0.206,0,0.373,0.167,0.373,0.374c0,0.206-0.167,0.373-0.373,0.373l-29.591,0.004c-0.1,0-0.194-0.039-0.264-0.11
+		c-0.071-0.069-0.11-0.164-0.11-0.263v-0.802c0-0.206,0.167-0.374,0.374-0.374C30.493,121.878,30.66,122.046,30.66,122.252"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9E9E9E" stroke-miterlimit="10" x1="59.75" y1="117.813" x2="78.75" y2="117.813"/>
+	<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#9E9E9E" stroke-miterlimit="10" points="7.25,7.313 7.25,117.813 
+		29.75,117.813 	"/>
+	
+		<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#9E9E9E" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" points="
+		60.75,117.813 93.25,117.813 93.25,108.813 15.25,108.813 10.25,108.813 10.25,57.313 	"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9E9E9E" stroke-miterlimit="10" x1="29.25" y1="109.313" x2="29.25" y2="117.313"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#9E9E9E" stroke-miterlimit="10" x1="60.25" y1="109.313" x2="60.25" y2="117.313"/>
 </g>
 </svg>
