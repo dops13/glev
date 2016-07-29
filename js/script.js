@@ -184,7 +184,14 @@ $(function() {
 	});
 	$('.plans_flat .btn').hover(function(){
 		var flat_number = $(this).parent().attr('data-flat-number');
+		var flat_square = $(this).parent().attr('data-flat-square');
+		var flat_room = $(this).parent().attr('data-flat-room');
+		var flat_price = $(this).parent().attr('data-flat-price');
 		$('.flat_info .flat_number').text(flat_number);
+		$('.flat_info .flat_ch_square').text(flat_square);
+		$('.flat_info .flat_ch_room').text(flat_room);
+		$('.flat_info .flat_ch_price').text(flat_price);
+		$('.flat_info').addClass('active');
 	});
 	$('.flat_items a').click(function(){
 		$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').click();
@@ -222,6 +229,16 @@ $(function() {
 		},
 		function(){
 			 $(this).closest('.flat_detail').find('.item').removeClass('active');
+		}
+	);
+	$('.flat_detail .item').hover(
+		function(){
+			 var plan_icon_id = $(this).attr('data-plan-icon-id');
+			 $(this).closest('.flat_detail').find('.btn').removeClass('active');
+			 $(this).closest('.flat_detail').find('.btn[data-plan-icon-id="'+plan_icon_id+'"]').addClass('active');
+		},
+		function(){
+			 $(this).closest('.flat_detail').find('.btn').removeClass('active');
 		}
 	);
 	
