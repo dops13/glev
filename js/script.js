@@ -172,7 +172,13 @@ $(function() {
 		$('.area_flats .flat_detail').removeClass('active');
 		$('.area_flats .flat_detail_'+flat_id).addClass('active');
 		var flat_number = $(this).parent().attr('data-flat-number');
+		var flat_square = $(this).parent().attr('data-flat-square');
+		var flat_room = $(this).parent().attr('data-flat-room');
+		var flat_price = $(this).parent().attr('data-flat-price');
 		$('.flat_info .flat_number').text(flat_number);
+		$('.flat_info .flat_ch_square').text(flat_square);
+		$('.flat_info .flat_ch_room').text(flat_room);
+		$('.flat_info .flat_ch_price').text(flat_price);
 		$('.flat_select_text').text(flat_number);
 		$('.flat_items a').removeClass('active');
 		$('.flat_items a[data-flat-id="'+flat_id+'"]').addClass('active');
