@@ -183,17 +183,6 @@ $(function() {
 		$('.flat_items a').removeClass('active');
 		$('.flat_items a[data-flat-id="'+flat_id+'"]').addClass('active');
 	});
-	$('.plans_flat .btn').hover(function(){
-		var flat_number = $(this).parent().attr('data-flat-number');
-		var flat_square = $(this).parent().attr('data-flat-square');
-		var flat_room = $(this).parent().attr('data-flat-room');
-		var flat_price = $(this).parent().attr('data-flat-price');
-		$('.flat_info .flat_number').text(flat_number);
-		$('.flat_info .flat_ch_square').text(flat_square);
-		$('.flat_info .flat_ch_room').text(flat_room);
-		$('.flat_info .flat_ch_price').text(flat_price);
-		$('.flat_info').addClass('active');
-	});
 	$('.flat_items a').click(function(){
 		$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').click();
 		return false;
@@ -276,9 +265,22 @@ $(function() {
 	$('#plans13-hovers path, #plans15-hovers path').hover(
 		function(){
 			$(this).css({'opacity': '1'});
+			
+			$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').addClass('active');
+			var flat_number = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-number');
+			var flat_square = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-square');
+			var flat_room = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-room');
+			var flat_price = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-price');
+			$('.flat_info .flat_number').text(flat_number);
+			$('.flat_info .flat_ch_square').text(flat_square);
+			$('.flat_info .flat_ch_room').text(flat_room);
+			$('.flat_info .flat_ch_price').text(flat_price);
+			$('.flat_info').addClass('active');
 		},
 		function(){
 			$(this).css({'opacity': '0'});
+			
+			$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').removeClass('active');
 		}
 	);
 	$('.plans_flats .btn').hover(
