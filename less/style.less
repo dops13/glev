@@ -937,10 +937,21 @@ ul {
 
 /*flats*/
 
+.wrapper_flats {
+	 .m_flat {
+		 margin: 25px 0 0 0;
+		 overflow: hidden;
+	 }
+}
+
 .m_flat {
 	 margin-bottom: 75px;
 	 .m_title {
 		 margin-bottom: 38px;
+		 display: none;
+		 &.active {
+			 display: block;
+		 }
 	 }
 	 
 	 .area_menu {
@@ -1627,7 +1638,7 @@ ul {
 			 left: 0px;
 			 width: 100%;
 			 height: 100%;
-			 padding: 111px 0 0 0;
+			 padding: 0;
 			 opacity: 0;
 			 visibility: hidden;
 			 z-index: 1;
@@ -2147,6 +2158,15 @@ ul {
 			 }
 		 }
 		 
+		 .plan_detail_c {
+			 position: relative;
+			 top: 0px;
+			 left: 0px;
+			 width: 100%;
+			 height: auto;
+			 padding-top: 111px;
+		 }
+		 
 		 .plan_detail {
 			 position: relative;
 			 text-align: center;
@@ -2228,6 +2248,7 @@ ul {
 		 }
 		 
 		 .flat_items {
+			 display: none;
 			 font-size: 0px;
 			 a {
 				 display: inline-block;

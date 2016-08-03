@@ -51,6 +51,33 @@
 	 .m_flat .areas {height: 495px;}
 	 .m_flat .area_sections {transform: scale(0.7); -webkit-transform: scale(0.7); top: -107px;}
 	 
+	 .m_flat .area_flats .rt {position: initial; height: auto;}
+	 .m_flat .area_flats .lt {position: initial; height: auto;}
+	 .m_flat .areas {height: auto;}
+	 .m_flat .area {display: none; position: relative;}
+	 .m_flat .area.active {display: block; position: relative;}
+	 .m_flat .area_flats {height: 690px;}
+	 
+	 .m_flat .area_flats .floor_info .hgroup, .m_flat .area_flats .flat_info .hgroup {position: absolute; top: 30px; right: 0px; margin: 0;}
+	 .m_flat .area_flats .floor_items {position: absolute; bottom: 30px; left: 0px; width: 100%; text-align: center;}
+	 .m_flat .area_flats .floor_items a {margin: 0 8px 8px 0;}
+	 .m_flat .area_flats .print {display: none;}
+	 .m_flat .area_flats .floor_info {padding: 0;}
+	 .m_flat .area_flats .flat_info {display: none;}
+	 
+	 .m_flat .area_flats .flat_select .hgroup{display: none;}
+	 .m_flat .area_flats[data-subarea="d"] .flat_select {display: block; position: absolute; padding: 0; left: 0px; top: 100px; z-index: 10;}
+	 .m_flat .area_flats[data-subarea="d"] .flat_info {display: block;}
+	 .m_flat .area_flats .flat_items {width: 131px;}
+	 
+	 .m_flat .area_flats .plan_detail_c {transform: scale(0.8); transform-origin: center right;}
+	 .m_flat .area_flats .flat_detail .items {width: 550px; float: right; padding: 0; margin-top: -20px; text-align: right;}
+	 
+	 .m_flat .area_flats .flat_info .chars {position: absolute; bottom: 0px; left: 150px;}
+	 .m_flat .area_flats .flat_info .chars p:last-child {display: none;}
+	 .m_flat .area_flats .flat_info .chars p:nth-child(2) {border-bottom: none;}
+	 .m_flat .area_flats[data-subarea="d"] .flat_info .bts {position: absolute; margin: 0; bottom: 32px; right: 0px; z-index: 10;}
+	 
 	 /*archive*/
 	 .m_archive {}
 	 .m_archive .album {width: 541px; height: 750px; padding: 0; margin: 0 auto 32px auto;}

@@ -109,6 +109,7 @@ $(function() {
 		$('html, body').animate({scrollTop: $('.m_flat').offset().top-78}, 500);
 		return false;
 	});
+	$('.area_active').css('left', $('.area_menu a.active').position().left+'px');
 	$('.area_menu a').click(function(){
 		/*
 		var f_tab = $(this).attr('href');
@@ -135,6 +136,12 @@ $(function() {
 		$('.floor_info .floor_number').text($(this).text());
 		return false;
 	});
+	$('.wrapper_main .b-area-label').click(function(){
+		if(!$(this).hasClass('sold')) {
+			location.href = 'plans.html';
+		}
+		return false;
+	});
 	$('.b-area-label').click(function(){
 		if(!$(this).hasClass('sold')) {
 			$('.m_flat .area').removeClass('active');
@@ -152,6 +159,7 @@ $(function() {
 			$('.area_flats .plans').removeClass('active');
 			$('.area_flats .plans_'+section_id).addClass('active');
 			$('.area_flats').attr('data-section', section_id);
+			window.location.hash = 'plans';
 		}
 		return false;
 	});
