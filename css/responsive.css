@@ -117,6 +117,7 @@
 	 .header .head_rt .contacts .tel {margin: -2px 0 0 0; font-size: 12px; line-height: 55px; height: auto;}
 	 .header .head_rt .contacts .tel strong {font-size: 14px;}
 	 .header .head_rt .contacts .tel strong span {display: none;}
+	 .header .logo {display: none;}
 	 
 	 /*main banner*/
 	 .m_banner {margin-top: 55px; background: url(../images/banner_middle.png) top center no-repeat; height: 462px; background-size: auto 100%; background-position: 50% 0%;}
@@ -194,6 +195,30 @@
 	 .m_flat .area_sections .area_map[data-mob-section-id="15"] {}
 	 .m_flat .area_sections .b-area-nav {visibility: hidden;}
 	 
+	 .m_flat .area_flats {height: 564px;}
+	 .m_flat .area_flats .plans {transform: rotate(-90deg) scale(1.28); transform-origin: 192px 150px;}
+	 .m_flat .area_flats .plans_flats {display: none;}
+	 .m_flat .area_flats .subtitle {display: none;}
+	 .m_flat .area_flats .fw {height: 564px;}
+	 .m_flat .area_flats .floor_info .hgroup {bottom: 10px; top: auto; left: 0px; width: 100%; text-align: center;}
+	 .m_flat .area_flats .htitle {font-size: 22px;}
+	 .m_flat .area_flats .back {top: 10px; font-size: 12px;}
+	 .m_flat .area_flats .back::before {width: 29px; height: 25px; background-size: 100% 100%; margin-right: 15px;}
+	 .m_flat .area_flats .floor_items {top: 50px; bottom: auto;}
+	 .m_flat .area_flats .floor_items a {width: 34px; height: 34px; line-height: 34px; font-size: 12px; margin: 0 8px 4px 0;}
+	 .m_flat .area_flats[data-subarea="d"] .flat_select {top: 50px; width: 100%;}
+	 .m_flat .area_flats .flat_items {width: auto;}
+	 .m_flat .area_flats .flat_items a {width: 88px; height: 37px; line-height: 37px; font-size: 8px; margin: 0 5px 8px 0;}
+	 
+	 .m_flat .area_flats .plan_detail_bts {display: none;}
+	 .m_flat .area_flats .plan_detail_c {transform: scale(0.6); transform-origin: center center; padding-top: 160px;}
+	 .m_flat .area_flats .flat_detail .items {display: none;}
+	 .m_flat .area_flats[data-subarea="d"] .flat_info {display: block; position: absolute; bottom: 0px; width: 100%; left: 0;}
+	 .m_flat .area_flats .flat_info .hgroup {position: relative; top: auto; left: auto; text-align: center; margin-bottom: 7px;}
+	 .m_flat .area_flats .flat_info .chars {position: relative; bottom: auto; left: auto; width: auto; margin-bottom: 7px; text-align: center;}
+	 .m_flat .area_flats .flat_info .chars p {display: inline-block; vertical-align: bottom; font-size: 9px; padding: 7px; border-bottom: none;}
+	 .m_flat .area_flats[data-subarea="d"] .flat_info .bts {position: relative; bottom: auto; right: auto;}
+	 
 	 /*album*/
 	 .m_archive {margin-bottom: 60px;}
 	 .m_archive .m_title {margin-bottom: 35px;}
@@ -236,4 +261,24 @@
 	 footer .foot_rt .contacts .tel {margin: 0; font-size: 12px;}
 	 footer .foot_rt .contacts .tel strong {font-size: 14px;}
 	 footer .foot_rt .contacts .tel strong span {display: none;}
+	 
+	 /*popup*/
+	 .popup {width: 275px;}
+	 .popup .close {width: 48px; height: 48px; left: -21px;}
+	 .popup .close span {display: none;}
+	 .pbox_call {padding: 35px 30px 0;}
+	 .popup .htitle {font-size: 22px; margin-bottom: 20px;}
+	 .popup .htitle span {font-size: 13px; line-height: 23px; margin-top: 7px;}
+	 .popup .c_form .value input {height: 45px; font-size: 13px;}
+	 .c_form .politic {font-size: 9px; line-height: 23px; margin-top: 20px;}
+	 .pbox_blog {padding: 75px 0 30px 35px;}
+	 .pbox_blog .share {top: 10px; left: 0px; width: 100%; padding: 0 20px; text-align: left;}
+	 .pbox_blog .share a {margin-left: 10px; font-size: 13px;}
+	 .pbox_blog .share a::before {width: 40px; height: 40px; background-size: 100% 100%;}
+	 .pbox_blog .text {font-size: 13px; line-height: 23px;}
+	 .pbox_detail .icon img {max-width: 50%;}
+	 .pbox_detail .htitle {padding: 0 30px;}
+	 .pbox_detail .htitle span {display: none;}
+	 .pbox_detail .chars .lt, .pbox_detail .chars .rt {float: none; width: auto;}
+	 .pbox_detail .chars p {padding: 9px; font-size: 13px; border: none;}
 }

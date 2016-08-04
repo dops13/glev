@@ -13,6 +13,12 @@ $(function() {
 		return false;
 	});
 	
+	var leftPopup = '-750px';
+	
+	if(width<720){
+		var leftPopup = '-320px';
+	}
+	
 	/*popup call*/
 	$('.zvonok_btn, .btn_flat_order').click(function(){
 		$('#overlay_call').fadeIn(100, function(){
@@ -21,7 +27,7 @@ $(function() {
 		return false;
 	});
 	$('#popup_call .close, #overlay_call').click(function(){
-		$('#popup_call').animate({'right': '-750px'}, 150, function(){
+		$('#popup_call').animate({'right': leftPopup}, 150, function(){
 			$('#overlay_call').fadeOut(100);
 		});
 		return false;
@@ -53,7 +59,7 @@ $(function() {
 		return false;
 	});
 	$('#popup_blog .close, #overlay_blog').click(function(){
-		$('#popup_blog').animate({'right': '-750px'}, 200, function(){
+		$('#popup_blog').animate({'right': leftPopup}, 200, function(){
 			$('#overlay_blog').fadeOut(200);
 		});
 		return false;
@@ -67,7 +73,7 @@ $(function() {
 		return false;
 	});
 	$('#popup_detail .close, #overlay_detail').click(function(){
-		$('#popup_detail').animate({'right': '-750px'}, 200, function(){
+		$('#popup_detail').animate({'right': leftPopup}, 200, function(){
 			$('#overlay_detail').fadeOut(200);
 		});
 		return false;
@@ -106,39 +112,37 @@ $(function() {
 	
 	/*chose flat*/
 	$('.choose_btn').click(function(){
-		$('html, body').animate({scrollTop: $('.m_flat').offset().top-78}, 500);
-		return false;
+		$('html, body').animate({scrollTop: $('.m_flat').offset().top-100}, 500);
 	});
 	$('.area_active').css('left', $('.area_menu a.active').position().left+'px');
-	$('.area_menu a').click(function(){
-		/*
-		var f_tab = $(this).attr('href');
-		$('.m_flat .area').removeClass('active');
-		$(f_tab).addClass('active');
-		if(f_tab=='#f-flats'){
-			var f_subarea = $(this).attr('data-subarea-link');
-			if(f_subarea=='d'){
-				 $('.area_flats').attr('data-subarea', 'd');
-			} else {
-				 $('.area_flats').attr('data-subarea', 'p');
+	$('.area_menu a').click(function(e){
+		e.preventDefault();
+		if($(this).index()<$('.area_menu a.active').index()){
+			var f_tab = $(this).attr('href');
+			$('.m_flat .area').removeClass('active');
+			$(f_tab).addClass('active');
+			if(f_tab=='#f-flats'){
+				var f_subarea = $(this).attr('data-subarea');
+				if(f_subarea=='p'){
+					$('.area_flats').attr('data-subarea', 'p');
+				} else {
+					$('.area_flats').attr('data-subarea', 'd');
+				}
 			}
+			$('.area_menu a').removeClass('active');
+			$(this).addClass('active');
+			$('.area_active').css('left', $(this).position().left+'px');
+			//window.location.hash = $(this).attr('data-hash');
+			$('.m_flat .m_title').removeClass('active');
+			$('#h-'+$(this).attr('data-hash')).addClass('active');
 		}
-		
-		$('.area_menu a').removeClass('active');
-		$(this).addClass('active');
-		$('.area_active').css('left', $(this).position().left+'px');
-		*/
 		return false;
 	});
-	$('.floor_items a').click(function(){
-		$(this).parent().find('a').removeClass('active');
-		$(this).addClass('active');
-		$('.floor_info .floor_number').text($(this).text());
-		return false;
-	});
-	$('.wrapper_main .b-area-label').click(function(){
-		if(!$(this).hasClass('sold')) {
-			location.href = 'plans.html';
+	$('.area .back').click(function(){
+		$('.area_menu a.active:last').prev().click();
+		if($(this).attr('data-back-subarea')=='o') {
+			$(this).text('Назад до вибору секції');
+			$(this).attr('data-back-subarea', 'p');
 		}
 		return false;
 	});
@@ -153,18 +157,23 @@ $(function() {
 			
 			$('.area_flats').attr('data-subarea', 'p');
 			var section_id = $(this).attr('data-section-id');
-			if(section_id=='14'){
-				section_id = '13';
-			}
 			$('.area_flats .plans').removeClass('active');
 			$('.area_flats .plans_'+section_id).addClass('active');
 			$('.area_flats').attr('data-section', section_id);
-			window.location.hash = 'plans';
+			//window.location.hash = 'plans';
+			$('.m_flat .m_title').removeClass('active');
+			$('.m_flat .m_title#h-plans').addClass('active');
 		}
 		return false;
 	});
 	$('.area_map area').click(function(){
 		$('.b-area-label-'+$(this).attr('data-section-id')).click();
+		return false;
+	});
+	$('.floor_items a').click(function(){
+		$(this).parent().find('a').removeClass('active');
+		$(this).addClass('active');
+		$('.floor_info .floor_number').text($(this).text());
 		return false;
 	});
 	$('.plans_flat .btn').click(function(){
@@ -182,7 +191,7 @@ $(function() {
 		var flat_number = $(this).parent().attr('data-flat-number');
 		var flat_square = $(this).parent().attr('data-flat-square');
 		var flat_room = $(this).parent().attr('data-flat-room');
-		var flat_price = $(this).parent().attr('data-flat-price');
+		var flat_price = squareToPrice($(this).parent().attr('data-flat-square'));;
 		$('.flat_info .flat_number').text(flat_number);
 		$('.flat_info .flat_ch_square').text(flat_square);
 		$('.flat_info .flat_ch_room').text(flat_room);
@@ -190,33 +199,14 @@ $(function() {
 		$('.flat_select_text').text(flat_number);
 		$('.flat_items a').removeClass('active');
 		$('.flat_items a[data-flat-id="'+flat_id+'"]').addClass('active');
+		$('.area_flats .back').text('Назад к выбору квартиры');
+		$('.area_flats .back').attr('data-back-subarea', 'o');
+		//window.location.hash = 'detail-plan';
+		$('.m_flat .m_title').removeClass('active');
+		$('.m_flat .m_title#h-detail').addClass('active');
 	});
 	$('.flat_items a').click(function(){
 		$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').click();
-		return false;
-	});
-	$('.area_flats').on('click', '.back', function(){
-		var back_id = $('#f-flats').attr('data-subarea');
-		if(back_id=='d'){
-			$('.m_flat .area').removeClass('active');
-			$('#f-flats').addClass('active');
-		
-			$('.area_flats').attr('data-subarea', 'p');
-		
-			$('.area_menu a').removeClass('active');
-			$('.area_menu a').eq(1).addClass('active');
-			$('.area_active').css('left', $('.area_menu a').eq(1).position().left+'px');
-		} else {
-			$('.m_flat .area').removeClass('active');
-			$('#f-sections').addClass('active');
-			
-			$('.area_flats').attr('data-subarea', 'p');
-			
-			$('.area_menu a').removeClass('active');
-			$('.area_menu a').eq(0).addClass('active');
-			$('.area_active').css('left', $('.area_menu a').eq(0).position().left+'px');
-		}
-		
 		return false;
 	});
 	$('.flat_detail .btn').hover(
@@ -270,7 +260,11 @@ $(function() {
 			$('.b-area-tooltip').css({'left': e.pageX-$(this).offset().left+0+'px', 'top': e.pageY-$(this).offset().top+20+'px'});
 		}
 	});
-	$('#plans13-hovers path, #plans15-hovers path').hover(
+	$('#plans13-hovers path, #plans14-hovers path, #plans15-hovers path').click(function(){
+		$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').click();
+		return false;
+	});
+	$('#plans13-hovers path, #plans14-hovers path, #plans15-hovers path').hover(
 		function(){
 			$(this).css({'opacity': '1'});
 			
@@ -278,7 +272,7 @@ $(function() {
 			var flat_number = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-number');
 			var flat_square = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-square');
 			var flat_room = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-room');
-			var flat_price = $('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-price');
+			var flat_price = squareToPrice($('.plans_flat_'+$(this).attr('data-flat-id')).attr('data-flat-square'));
 			$('.flat_info .flat_number').text(flat_number);
 			$('.flat_info .flat_ch_square').text(flat_square);
 			$('.flat_info .flat_ch_room').text(flat_room);
@@ -294,9 +288,19 @@ $(function() {
 	$('.plans_flats .btn').hover(
 		function(){
 			$('#plans'+$(this).parent().attr('data-flat-id')).css({'opacity': '1'});
+			var flat_number = $(this).parent().attr('data-flat-number');
+			var flat_square = $(this).parent().attr('data-flat-square');
+			var flat_room = $(this).parent().attr('data-flat-room');
+			var flat_price = squareToPrice($(this).parent().attr('data-flat-square'));
+			$('.flat_info .flat_number').text(flat_number);
+			$('.flat_info .flat_ch_square').text(flat_square);
+			$('.flat_info .flat_ch_room').text(flat_room);
+			$('.flat_info .flat_ch_price').text(flat_price);
+			$('.flat_info').addClass('active');
 		},
 		function(){
 			$('#plans'+$(this).parent().attr('data-flat-id')).css({'opacity': '0'});
+			$(this).removeClass('active');
 		}
 	);
 	if(width<720){
@@ -378,10 +382,72 @@ $(function() {
 	$('.preview a').click(function(){
 		return false;
 	});
+	
+	/*validation*/
+	$("#contact_form").validate({
+		rules: {
+			name: {
+				required: true
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			phone: {
+				required: true
+			}
+		},
+		success: "valid",
+		submitHandler: function() {
+			$('#contact_form').fadeOut(250);
+			var ask_title = $('#popup_ask .h_title').text();
+			var ask_subtitle = $('#popup_ask .h_subtitle').text();
+			$('#popup_ask .h_title').text('Спасибо, ваша заявка отправлена.');
+			$('#popup_ask .h_subtitle').text('Мы свяжемся с вами в ближайшее время.');
+			setTimeout(function(){
+				$('#contact_form').fadeIn(250);
+				$('#contact_form input, #contact_form textarea').val('');
+				$('#popup_ask .close').click();
+			}, 4000);
+		}
+	});
+	
+	$("#call_form").validate({
+		rules: {
+			name: {
+				required: true
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			phone: {
+				required: true
+			}
+		},
+		success: "valid",
+		submitHandler: function() {
+			$('#call_form').fadeOut(250);
+			var call_title = $('#popup_call .htitle').html();
+			$('#popup_call .htitle').html('Спасибо, ваша заявка отправлена. <span>Мы свяжемся с вами в ближайшее время.</span>');
+			setTimeout(function(){
+				$('#call_form').fadeIn(250);
+				$('#call_form input, #call_form textarea').val('');
+				$('#popup_call .close').click();
+			}, 4000);
+		}
+	});
 });
 
-/*print plans*/
+function squareToPrice(n) {
+    n = parseFloat(n.replace(/[,]+/g, '.'))*11500;
+	n = n.toFixed(0);
+	n += "";
+    n = new Array(4 - n.length % 3).join("U") + n;
+    return n.replace(/([0-9U]{3})/g, "$1 ").replace(/U/g, "");
+}
 
+/*print plans*/
 function MySourcetoPrint(source) {
 	return "<html><head><script>function step1(){\n" +
 			"setTimeout('step2()', 10);}\n" +
@@ -389,7 +455,6 @@ function MySourcetoPrint(source) {
 			"</scri" + "pt></head><body onload='step1()'>\n" +
 			"<img src='" + source + "' /></body></html>";
 }
-
 function MyPrint(source) {
 	Pagelink = "about:blank";
 	var pwa = window.open(Pagelink, "_new");
