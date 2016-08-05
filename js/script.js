@@ -146,7 +146,7 @@ $(function() {
 		}
 		return false;
 	});
-	$('.b-area-label').click(function(){
+	$('.b-area-label').on('click touchstart', function () {
 		if(!$(this).hasClass('sold')) {
 			$('.m_flat .area').removeClass('active');
 			$('#f-flats').addClass('active');
@@ -166,9 +166,8 @@ $(function() {
 		}
 		return false;
 	});
-	$('.area_map area').click(function(){
+	$('.area_map area').on('click touchstart', function () {
 		$('.b-area-label-'+$(this).attr('data-section-id')).click();
-		return false;
 	});
 	$('.floor_items a').click(function(){
 		$(this).parent().find('a').removeClass('active');
@@ -303,30 +302,6 @@ $(function() {
 			$(this).removeClass('active');
 		}
 	);
-	if(width<720){
-		$('.b-area-hover-13, .b-area-label-13').addClass('active');
-		$('.area_map').attr('data-mob-section-id', '13');
-		$('.b-area-nav .prev').click(function(){
-			var mob_index = $('.area_map').attr('data-mob-section-id');
-			if(mob_index>13) {
-				mob_index = parseInt(mob_index)-1;
-			}
-			$('.area_map').attr('data-mob-section-id', mob_index);
-			$('.b-area-hover, .b-area-label').removeClass('active');
-			$('.b-area-hover-'+mob_index+', .b-area-label-'+mob_index).addClass('active');
-			$('.b-area-nav .num').text(mob_index);
-		});
-		$('.b-area-nav .next').click(function(){
-			var mob_index = $('.area_map').attr('data-mob-section-id');
-			if(mob_index<15) {
-				mob_index = parseInt(mob_index)+1;
-			}
-			$('.area_map').attr('data-mob-section-id', mob_index);
-			$('.b-area-hover, .b-area-label').removeClass('active');
-			$('.b-area-hover-'+mob_index+', .b-area-label-'+mob_index).addClass('active');
-			$('.b-area-nav .num').text(mob_index);
-		});
-	}
 	
 	/*news carousel*/
 	var news_swiper = new Swiper('.news_carousel .swiper-container', {
@@ -427,17 +402,37 @@ $(function() {
 		},
 		success: "valid",
 		submitHandler: function() {
-			$('#call_form').fadeOut(250);
-			var call_title = $('#popup_call .htitle').html();
-			$('#popup_call .htitle').html('Спасибо, ваша заявка отправлена. <span>Мы свяжемся с вами в ближайшее время.</span>');
+			$('.pbox_call').fadeOut();
+			$('.pbox_thank').fadeIn(250);
 			setTimeout(function(){
-				$('#call_form').fadeIn(250);
 				$('#call_form input, #call_form textarea').val('');
 				$('#popup_call .close').click();
-			}, 4000);
+				$('.pbox_call').fadeIn(250);
+				$('.pbox_thank').fadeOut();
+			}, 40000);
 		}
 	});
+	
+	$(".m_flat *").nodoubletapzoom();
 });
+
+(function($) {
+	$.fn.nodoubletapzoom = function() {
+		$(this).bind('touchstart', function preventZoom(e){
+			var t2 = e.timeStamp;
+			var t1 = $(this).data('lastTouch') || t2;
+			var dt = t2 - t1;
+			var fingers = e.originalEvent.touches.length;
+			$(this).data('lastTouch', t2);
+			if (!dt || dt > 500 || fingers > 1){
+				return; // not double-tap
+			}
+			e.preventDefault(); // double tap - prevent the zoom
+			// also synthesize click events we just swallowed up
+			$(e.target).trigger('click');
+		});
+	};
+})(jQuery);
 
 function squareToPrice(n) {
     n = parseFloat(n.replace(/[,]+/g, '.'))*11500;

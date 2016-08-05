@@ -3,7 +3,7 @@
 *****************/
 
 @media (min-width: 1600px) {
-	 .m_banner {height: 832px; background: url(../images/banner_big.jpg) top center no-repeat;}
+	 .m_banner {height: 832px; background: url(../images/1920.png) top center no-repeat;}
 	 .m_banner .desc {padding-top: 132px;}
 }
 
@@ -11,11 +11,14 @@
 	 .fw {width: 688px;}
 	 
 	 /*header*/
-	 .header .head_rt .contacts .tel {margin: 10px 0 0 0;}
+	 .header .head_rt .contacts .tel {margin: -1px 0 0 0; text-align: left;}
 	 .header .head_rt .contacts .time {display: none;}
+	 .header .head_rt .contacts .tel a:nth-child(2) {display: block;}
+	 .header .loc {margin-top: 2px; line-height: 38px;}
+	 .header .loc:before {transform: scale(0.8); transform-origin: top center;}
 	 
 	 /*main banner*/
-	 .m_banner {background: url(../images/banner_big.jpg) top center no-repeat; height: 740px; background-size: auto 100%; background-position: 10% 0%;}
+	 .m_banner {background: url(../images/1920.png) top center no-repeat; height: 740px; background-size: auto 100%; background-position: 10% 0%;}
 	 .m_banner .desc {padding-top: 133px;}
 	 
 	 /*about*/
@@ -118,9 +121,10 @@
 	 .header .head_rt .contacts .tel strong {font-size: 14px;}
 	 .header .head_rt .contacts .tel strong span {display: none;}
 	 .header .logo {display: none;}
+	  .header .head_rt .contacts .tel a:nth-child(2) {display: none;}
 	 
 	 /*main banner*/
-	 .m_banner {margin-top: 55px; background: url(../images/banner_middle.png) top center no-repeat; height: 462px; background-size: auto 100%; background-position: 50% 0%;}
+	 .m_banner {margin-top: 55px; background: url(../images/1366.png) top center no-repeat; height: 562px; background-size: auto 100%; background-position: 50% 0%;}
 	 .m_banner .desc {padding: 67px 0 0 0; text-align: center;}
 	 .m_banner .desc .logo {margin: 0;}
 	 .m_banner .desc .logo img {max-width: 100%;}
@@ -196,7 +200,7 @@
 	 .m_flat .area_sections .b-area-nav {visibility: hidden;}
 	 
 	 .m_flat .area_flats {height: 564px;}
-	 .m_flat .area_flats .plans {transform: rotate(-90deg) scale(1.28); transform-origin: 192px 150px;}
+	 .m_flat .area_flats .plans {transform: rotate(-90deg) scale(1.28); transform-origin: 55% 46%; top: 84px;}
 	 .m_flat .area_flats .plans_flats {display: none;}
 	 .m_flat .area_flats .subtitle {display: none;}
 	 .m_flat .area_flats .fw {height: 564px;}
@@ -208,16 +212,18 @@
 	 .m_flat .area_flats .floor_items a {width: 34px; height: 34px; line-height: 34px; font-size: 12px; margin: 0 8px 4px 0;}
 	 .m_flat .area_flats[data-subarea="d"] .flat_select {top: 50px; width: 100%;}
 	 .m_flat .area_flats .flat_items {width: auto;}
-	 .m_flat .area_flats .flat_items a {width: 88px; height: 37px; line-height: 37px; font-size: 8px; margin: 0 5px 8px 0;}
+	 .m_flat .area_flats .flat_items a {width: 88px; height: 37px; line-height: 37px; font-size: 10px; margin: 0 5px 8px 0;}
 	 
 	 .m_flat .area_flats .plan_detail_bts {display: none;}
-	 .m_flat .area_flats .plan_detail_c {transform: scale(0.6); transform-origin: center center; padding-top: 160px;}
+	 .m_flat .area_flats .plan_detail_c {transform: scale(0.75); transform-origin: center center; padding-top: 160px;}
 	 .m_flat .area_flats .flat_detail .items {display: none;}
 	 .m_flat .area_flats[data-subarea="d"] .flat_info {display: block; position: absolute; bottom: 0px; width: 100%; left: 0;}
 	 .m_flat .area_flats .flat_info .hgroup {position: relative; top: auto; left: auto; text-align: center; margin-bottom: 7px;}
 	 .m_flat .area_flats .flat_info .chars {position: relative; bottom: auto; left: auto; width: auto; margin-bottom: 7px; text-align: center;}
 	 .m_flat .area_flats .flat_info .chars p {display: inline-block; vertical-align: bottom; font-size: 9px; padding: 7px; border-bottom: none;}
 	 .m_flat .area_flats[data-subarea="d"] .flat_info .bts {position: relative; bottom: auto; right: auto;}
+	 
+	 .m_flat .area_flats .plan_detail {background-size: 95% 95%!important;}
 	 
 	 /*album*/
 	 .m_archive {margin-bottom: 60px;}
@@ -281,4 +287,10 @@
 	 .pbox_detail .htitle span {display: none;}
 	 .pbox_detail .chars .lt, .pbox_detail .chars .rt {float: none; width: auto;}
 	 .pbox_detail .chars p {padding: 9px; font-size: 13px; border: none;}
+	 .pbox_thank {padding: 30px;}
+	 .pbox_thank .icon {width: 215px; height: 240px;}
+}
+
+@media (max-width: 400px) {
+	 .m_banner {background: url(../images/320.png) top center no-repeat; height: 513px; background-size: cover; background-position: 50% 0%;}
 }
