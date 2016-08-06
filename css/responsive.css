@@ -125,14 +125,15 @@
 	 
 	 /*main banner*/
 	 .m_banner {margin-top: 55px; background: url(../images/1366.png) top center no-repeat; height: 562px; background-size: auto 100%; background-position: 50% 0%;}
-	 .m_banner .desc {padding: 67px 0 0 0; text-align: center;}
+	 .m_banner .desc {padding: 50px 0 0 0; text-align: center;}
 	 .m_banner .desc .logo {margin: 0;}
 	 .m_banner .desc .logo img {max-width: 100%;}
-	 .m_banner .desc .title {font-size: 24px; font-weight: 200;}
-	 .m_banner .desc p {margin: 10px 0; font-size: 12px; padding: 0 40px; line-height: 21px;}
+	 .m_banner .desc .title {font-size: 24px; font-weight: 300; color: #fff;}
+	 .m_banner .desc p {margin: 10px 0; font-size: 12px; padding: 0 40px; line-height: 21px; font-weight: 400; color: #fff;}
 	 .m_banner .desc .bts {text-align: center;}
-	 .m_banner .count {right: 50%; width: 160px; height: 160px; margin-right: -80px; background-size: 100% 100%; padding: 64px 0 0 0; font-size: 12px;}
+	 .m_banner .count {right: 50%; width: 160px; height: 160px; margin-right: -80px; background-size: 100% 100%; padding: 64px 0 0 0; font-size: 12px; bottom: -80px;}
 	 .m_banner .count strong {font-size: 30px; margin-top: 5px;}
+	 .m_banner .count {bottom: -80px;}
 	 
 	 /*wrapper*/
 	 .wrapper {overflow: hidden;}
@@ -292,5 +293,5 @@
 }
 
 @media (max-width: 400px) {
-	 .m_banner {background: url(../images/320.png) top center no-repeat; height: 513px; background-size: cover; background-position: 50% 0%;}
+	 .m_banner {background: url(../images/320.png) top center no-repeat; height: 475px; background-size: cover; background-position: 50% 0%;}
 }
