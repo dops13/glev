@@ -34,7 +34,7 @@ function initialize() {
 		}
 	});
 	setMarkers(map_inf1, places_inf1);
-	setDirect(map_inf1, places_inf1, directionsServiceInf1, directionsDisplayInf1, 1);
+	setDirect(map_inf1, places_inf1, directionsServiceInf1, directionsDisplayInf1, 17);
 	
 	/*---Infra map 2*/
 	var map_inf2 = new google.maps.Map(document.getElementById("mapCanvasInf2"), myOptionsInf);
@@ -46,7 +46,7 @@ function initialize() {
 		}
 	});
 	setMarkers(map_inf2, places_inf2);
-	setDirect(map_inf2, places_inf2, directionsServiceInf2, directionsDisplayInf2, 2);
+	setDirect(map_inf2, places_inf2, directionsServiceInf2, directionsDisplayInf2, 16);
 	
 	/*---Infra map 3*/
 	var map_inf3 = new google.maps.Map(document.getElementById("mapCanvasInf3"), myOptionsInf);
@@ -58,7 +58,7 @@ function initialize() {
 		}
 	});
 	setMarkers(map_inf3, places_inf3);
-	setDirect(map_inf3, places_inf3, directionsServiceInf3, directionsDisplayInf3, 3);
+	setDirect(map_inf3, places_inf3, directionsServiceInf3, directionsDisplayInf3, 17);
 	
 	/*---Infra map 4*/
 	var map_inf4 = new google.maps.Map(document.getElementById("mapCanvasInf4"), myOptionsInf);
@@ -70,8 +70,7 @@ function initialize() {
 		}
 	});
 	setMarkers(map_inf4, places_inf4);
-	setDirect(map_inf4, places_inf4, directionsServiceInf4, directionsDisplayInf4, 4);
-	setTimeout(function(){map_inf4.setZoom(18);}, 2000);
+	setDirect(map_inf4, places_inf4, directionsServiceInf4, directionsDisplayInf4, 18);
 	
 	/*---Infra map 5*/
 	var map_inf5 = new google.maps.Map(document.getElementById("mapCanvasInf5"), myOptionsInf);
@@ -83,8 +82,7 @@ function initialize() {
 		}
 	});
 	setMarkers(map_inf5, places_inf5);
-	setDirect(map_inf5, places_inf5, directionsServiceInf5, directionsDisplayInf5, 5);
-	setTimeout(function(){map_inf5.setZoom(18);}, 2000);
+	setDirect(map_inf5, places_inf5, directionsServiceInf5, directionsDisplayInf5, 18);
 }
 
 var places = [
@@ -136,27 +134,23 @@ function setMarkers(map, locations) {
 	//map.setCenter( latlngbounds.getCenter(), map.fitBounds(latlngbounds));	 
 };
 
-function setDirect(map, locations, directionsService, directionsDisplay, numTab) {
+function setDirect(map, locations, directionsService, directionsDisplay, zoom) {
     request = {
         origin: new google.maps.LatLng(locations[0][1], locations[0][2]), //точка старта
         destination: new google.maps.LatLng(locations[1][1], locations[1][2]), //точка финиша
         travelMode: google.maps.DirectionsTravelMode.DRIVING //режим прокладки маршрута
     };
-	request2 = {
-        origin: new google.maps.LatLng(locations[0][1], locations[0][2]), //точка старта
-        destination: new google.maps.LatLng(locations[1][1], locations[1][2]), //точка финиша
-        travelMode: google.maps.DirectionsTravelMode.WALKING //режим прокладки маршрута
-    };
 	directionsService.route(request, function(response, status) {
         if (status == google.maps.DirectionsStatus.OK) {
             directionsDisplay.setDirections(response);
         }
-		//$('#infra-tab-'+numTab).find('.inf_dist').text(response.routes[0].legs[0].distance.value);
-		//$('#infra-tab-'+numTab).find('.inf_car_dur').text(parseInt(response.routes[0].legs[0].duration.value/60));
     });
-	directionsService.route(request2, function(response, status) {
-		//$('#infra-tab-'+numTab).find('.inf_walk_dur').text(parseInt(response.routes[0].legs[0].duration.value/60));
-    });
-    directionsDisplay.setMap(map);
-	directionsDisplay.setOptions({suppressMarkers: true});
+	directionsDisplay.setMap(map);
+	directionsDisplay.setOptions({
+		suppressMarkers: true,
+		preserveViewport: true
+	});
+	latlng = new google.maps.LatLng((locations[0][1]+locations[1][1])/2, (locations[0][2]+locations[1][2])/2);
+	map.setCenter(latlng);
+	map.setZoom(zoom);
 }

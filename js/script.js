@@ -15,10 +15,6 @@ $(function() {
 	
 	var leftPopup = '-750px';
 	
-	if(width<720){
-		var leftPopup = '-320px';
-	}
-	
 	/*popup call*/
 	$('.zvonok_btn, .btn_flat_order').click(function(){
 		$('#overlay_call').fadeIn(100, function(){
@@ -75,6 +71,14 @@ $(function() {
 	$('#popup_detail .close, #overlay_detail').click(function(){
 		$('#popup_detail').animate({'right': leftPopup}, 200, function(){
 			$('#overlay_detail').fadeOut(200);
+		});
+		return false;
+	});
+	
+	/*popup thanks*/
+	$('#popup_thanks .close, #overlay_thanks').click(function(){
+		$('#popup_thanks').animate({'right': leftPopup}, 200, function(){
+			$('#overlay_thanks').fadeOut(200);
 		});
 		return false;
 	});
@@ -333,18 +337,6 @@ $(function() {
 		}
     });
 	
-	/*menu popup*/
-	$('.menu_btn').click(function () {
-		$('.menu_popup').fadeIn();
-		
-		return false;
-	});
-	$('.menu_popup .close_btn').click(function () {
-		$('.menu_popup').fadeOut();
-		
-		return false;
-	});
-	
 	/*gallery*/
 	$('.gallery_in a').click(function(){
 		var big_img = $(this).attr('href');
@@ -374,15 +366,12 @@ $(function() {
 		},
 		success: "valid",
 		submitHandler: function() {
-			$('#contact_form').fadeOut(250);
-			var ask_title = $('#popup_ask .h_title').text();
-			var ask_subtitle = $('#popup_ask .h_subtitle').text();
-			$('#popup_ask .h_title').text('Спасибо, ваша заявка отправлена.');
-			$('#popup_ask .h_subtitle').text('Мы свяжемся с вами в ближайшее время.');
+			$("#contact_form input, #contact_form textarea").val('');
+			$('#overlay_thanks').fadeIn(200, function(){
+				$('#popup_thanks').animate({'right': '0px'}, 200);
+			});
 			setTimeout(function(){
-				$('#contact_form').fadeIn(250);
-				$('#contact_form input, #contact_form textarea').val('');
-				$('#popup_ask .close').click();
+				$('#popup_thanks .close').click();
 			}, 4000);
 		}
 	});
@@ -413,26 +402,21 @@ $(function() {
 		}
 	});
 	
-	$(".m_flat *").nodoubletapzoom();
+	// Phone Mask
+	$('input[name="phone"], input[type="tel"]').mask("+99(999) 999-99-99");
+	
+	$('input, textarea').each(function(){
+		$(this).attr('autocomplete', 'off');
+	});
 });
 
-(function($) {
-	$.fn.nodoubletapzoom = function() {
-		$(this).bind('touchstart', function preventZoom(e){
-			var t2 = e.timeStamp;
-			var t1 = $(this).data('lastTouch') || t2;
-			var dt = t2 - t1;
-			var fingers = e.originalEvent.touches.length;
-			$(this).data('lastTouch', t2);
-			if (!dt || dt > 500 || fingers > 1){
-				return; // not double-tap
-			}
-			e.preventDefault(); // double tap - prevent the zoom
-			// also synthesize click events we just swallowed up
-			$(e.target).trigger('click');
-		});
-	};
-})(jQuery);
+window.addEventListener("resize", function() {
+    
+}, false);
+
+$(window).on("orientationchange",function(event){
+	
+});
 
 function squareToPrice(n) {
     n = parseFloat(n.replace(/[,]+/g, '.'))*11500;

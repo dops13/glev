@@ -288,7 +288,7 @@
 	 .pbox_detail .htitle span {display: none;}
 	 .pbox_detail .chars .lt, .pbox_detail .chars .rt {float: none; width: auto;}
 	 .pbox_detail .chars p {padding: 9px; font-size: 13px; border: none;}
-	 .pbox_thank {padding: 30px;}
+	 .pbox_thank {padding: 30px; margin-top: -236px;}
 	 .pbox_thank .icon {width: 215px; height: 240px;}
 }
 
