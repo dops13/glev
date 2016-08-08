@@ -366,12 +366,12 @@ $(function() {
 		},
 		success: "valid",
 		submitHandler: function() {
-			$("#contact_form input, #contact_form textarea").val('');
-			$('#overlay_thanks').fadeIn(200, function(){
-				$('#popup_thanks').animate({'right': '0px'}, 200);
-			});
+			$('.cont_form .c_form').fadeOut();
+			$('.cont_form .pbox_thank').fadeIn(250);
 			setTimeout(function(){
-				$('#popup_thanks .close').click();
+				$('.cont_form .c_form input').val('');
+				$('.cont_form .c_form').fadeIn(250);
+				$('.cont_form .pbox_thank').fadeOut();
 			}, 4000);
 		}
 	});

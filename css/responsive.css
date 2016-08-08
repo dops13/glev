@@ -114,10 +114,10 @@
 	 
 	 /*header*/
 	 .header {height: 55px; padding: 0;}
-	 .header .loc {padding-left: 20px; font-size: 12px; line-height: 55px; height: auto;}
+	 .header .loc {padding-left: 20px; font-size: 12px; line-height: 55px; height: auto; margin: 0;}
 	 .header .head_rt a.zvonok_btn {display: none;}
 	 .header .head_rt .contacts {margin: 0;}
-	 .header .head_rt .contacts .tel {margin: -2px 0 0 0; font-size: 12px; line-height: 55px; height: auto;}
+	 .header .head_rt .contacts .tel {margin: 0; font-size: 12px; line-height: 55px; height: auto;}
 	 .header .head_rt .contacts .tel strong {font-size: 14px;}
 	 .header .head_rt .contacts .tel strong span {display: none;}
 	 .header .logo {display: none;}
@@ -201,7 +201,7 @@
 	 .m_flat .area_sections .b-area-nav {visibility: hidden;}
 	 
 	 .m_flat .area_flats {height: 564px;}
-	 .m_flat .area_flats .plans {transform: rotate(-90deg) scale(1.28); transform-origin: 55% 46%; top: 84px;}
+	 .m_flat .area_flats .plans_bg {transform: rotate(-90deg) scale(1.28); position: absolute; top: 111px;}
 	 .m_flat .area_flats .plans_flats {display: none;}
 	 .m_flat .area_flats .subtitle {display: none;}
 	 .m_flat .area_flats .fw {height: 564px;}
@@ -255,10 +255,10 @@
 	 .m_contacts .cont_items .cont_item {margin-bottom: 34px;}
 	 .m_contacts .cont_items .cont_item .icon {width: 64px; height: 64px;}
 	 .m_contacts .cont_items .cont_item .icon:before {width: 48px; height: 48px; margin: -24px 0 0 -24px;}
-	 .m_contacts .cont_items .cont_item .icon:after {background-size: 50% 50%!important;}
+	 .m_contacts .cont_items .cont_item .icon:after {background-size: 50% auto!important;}
 	 .m_contacts .cont_items .cont_item .desc {width: 196px; margin-left: 16px; padding-top: 5px;}
 	 .m_contacts .cont_items .cont_item .desc p {font-size: 12px;}
-	 .m_contacts .cont_items .cont_item .desc p strong {font-size: 22px; margin-bottom: 5px;}
+	 .m_contacts .cont_items .cont_item .desc p strong {font-size: 18px; margin-bottom: 5px;}
 	 
 	 
 	 /*footer*/
@@ -292,6 +292,6 @@
 	 .pbox_thank .icon {width: 215px; height: 240px;}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 	 .m_banner {background: url(../images/320.png) top center no-repeat; height: 475px; background-size: cover; background-position: 50% 0%;}
 }

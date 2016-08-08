@@ -632,7 +632,7 @@
 						<div class="lt">
 							<div class="plans plans_13 active">
 								<div class="plans_bg">
-									<svg id="plans13" xmlns="http://www.w3.org/2000/svg" width="671.188" height="418.969" viewBox="0 0 671.188 418.969">
+									<svg id="plans13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 671.188 418.969">
 										<g id="plans13-hovers">
 										<path fill-rule="evenodd" clip-rule="evenodd" fill="#00c6ff" fill-opacity="0.3" d="M519.68 231.852h-4.29v19.294h4.646V364.54h87.21v8.06h-10.23v36.817h69.228v-36.462h-27.237v-8.416h21.06V87.394h-13.182v-7.622h18.404v-36.46h-59.13v36.562h11.116v7.876h-17.47v126.792l2.89-.04.04 7.744-2.93.358-79.77-.358z" id="plans13_8" data-flat-id="13_8" />
 										<path fill-rule="evenodd" clip-rule="evenodd" fill="#00c6ff" fill-opacity="0.3" d="M389.656 262.5v137h56v-35h29v8h-21v37h82v-37h-30v-7h10v-107h-90v4z" id="plans13_7" data-flat-id="13_7" />
@@ -1980,7 +1980,7 @@
 							</div>
 							<div class="plans plans_14">
 								<div class="plans_bg">
-									<svg id="plans14" xmlns="http://www.w3.org/2000/svg" width="705.141" height="440.219" viewBox="0 0 705.141 440.219">
+									<svg id="plans14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705.141 440.219">
 										<g id="plans14-hovers">
 										  <path fill-rule="evenodd" clip-rule="evenodd" fill="#00c6ff" d="M545.78 233.406v150h93v8h-12v38h73v-38h-29v-7h23v-151z" id="plans14_7" data-flat-id="14_7" fill-opacity="0.3"/>
 										  <path fill-rule="evenodd" clip-rule="evenodd" fill="#00c6ff" d="M408.78 275.487v143.92h59v-36h31v8h-23v39h87v-39h-31v-7h9v-113H408.782z" id="plans14_6" data-flat-id="14_6" fill-opacity="0.3"/>
@@ -7493,23 +7493,29 @@
 					</div>
 				</div>
 				<div class="cont_map" id="mapCanvas"></div>
-				<div class="cont_form c_form">
-					<div class="f_title">Зв’язатися з менеджером</div>
-					<form id="contact_form">	
-						<div class="value">
-							<label>Ваше имя</label>
-							<input type="text" name="name" />
-						</div>
-						<div class="value">
-							<label>ваша електронна адреса</label>
-							<input type="email" name="email" />
-						</div>
-						<div class="value">
-							<label>ваш номер телефону</label>
-							<input type="tel" name="phone" />
-						</div>
-						<div class="bts"><a href="#" class="btn" onclick="$('#contact_form').submit(); return false;">відправити заявку</a></div>
-					</form>
+				<div class="cont_form">
+					<div class="c_form">	
+						<div class="f_title">Зв’язатися з менеджером</div>
+						<form id="contact_form">	
+							<div class="value">
+								<label>Ваше имя</label>
+								<input type="text" name="name" />
+							</div>
+							<div class="value">
+								<label>ваша електронна адреса</label>
+								<input type="email" name="email" />
+							</div>
+							<div class="value">
+								<label>ваш номер телефону</label>
+								<input type="tel" name="phone" />
+							</div>
+							<div class="bts"><a href="#" class="btn" onclick="$('#contact_form').submit(); return false;">відправити заявку</a></div>
+						</form>
+					</div>
+					<div class="pbox_thank">
+						<div class="icon"></div>
+						<div class="htitle">Дякуємо за заявку! <span>Наш менеджер зв’яжеться з вами на протязі дня</span></div>
+					</div>
 				</div>
 				<div class="clr"></div>
 			</div>
