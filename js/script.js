@@ -368,10 +368,12 @@ $(function() {
 		submitHandler: function() {
 			$('.cont_form .c_form').fadeOut();
 			$('.cont_form .pbox_thank').fadeIn(250);
+			$('.cont_form').addClass('no_border');
 			setTimeout(function(){
 				$('.cont_form .c_form input').val('');
 				$('.cont_form .c_form').fadeIn(250);
 				$('.cont_form .pbox_thank').fadeOut();
+				$('.cont_form').removeClass('no_border');
 			}, 4000);
 		}
 	});
