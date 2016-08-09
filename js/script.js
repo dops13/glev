@@ -1,5 +1,8 @@
 $(function() {
 	var width = $(window).width();
+	var height = $(window).height();
+	
+	//alert(width + 'x' + height);
 	
 	$('.infra_menu a').click(function(){
 		var infra_link = $(this).attr('href');
@@ -202,7 +205,7 @@ $(function() {
 		$('.flat_select_text').text(flat_number);
 		$('.flat_items a').removeClass('active');
 		$('.flat_items a[data-flat-id="'+flat_id+'"]').addClass('active');
-		$('.area_flats .back').text('Назад к выбору квартиры');
+		$('.area_flats .back').text('Назад до вибору квартири');
 		$('.area_flats .back').attr('data-back-subarea', 'o');
 		//window.location.hash = 'detail-plan';
 		$('.m_flat .m_title').removeClass('active');
