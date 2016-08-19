@@ -242,30 +242,12 @@ $(function() {
 			 $('.b-area-hover-'+area_index).addClass('active');
 			 $('.b-area-label').removeClass('active');
 			 $('.b-area-label-'+area_index).addClass('active');
-			 $('.b-area-tooltip').show();
-			 $('.b-area-nav .num').text(area_index);
-			 
 		},
 		function(){
 			 $('.b-area-hover').removeClass('active');
 			 $('.b-area-label').removeClass('active');
-			 $('.b-area-tooltip').hide();
 		}
 	);
-	$('.area_map area').hover(function(){
-		if($(this).attr('data-section-count')!='0'){
-			$('.b-area-tooltip .circle').html('<span class="num">'+$(this).attr('data-section-count')+'</span><br/>квартир');
-		} else {
-			$('.b-area-tooltip .circle').html('усі<br/> квартири<br/> продані');
-		}
-	});
-	$('.area_map').mousemove(function(e){
-		if(width>720){
-			$('.b-area-tooltip').css({'left': e.pageX-$(this).offset().left-120+'px', 'top': e.pageY-$(this).offset().top+'px'});
-		} else {
-			$('.b-area-tooltip').css({'left': e.pageX-$(this).offset().left+0+'px', 'top': e.pageY-$(this).offset().top+20+'px'});
-		}
-	});
 	$('#plans13-hovers path, #plans14-hovers path, #plans15-hovers path').click(function(){
 		$('.plans_flat_'+$(this).attr('data-flat-id')).find('.btn').click();
 		return false;

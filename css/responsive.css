@@ -19,7 +19,7 @@
 	 
 	 /*main banner*/
 	 .m_banner {background: url(../images/1920.png) top center no-repeat; height: 740px; background-size: auto 100%; background-position: 10% 0%;}
-	 .m_banner .desc {padding-top: 133px;}
+	 .m_banner .desc {padding-top: 133px; padding-left: 0px;}
 	 
 	 /*about*/
 	 .m_about {padding: 175px 0 110px 0;}
@@ -125,7 +125,7 @@
 	 
 	 /*main banner*/
 	 .m_banner {margin-top: 55px; background: url(../images/750.png) top center no-repeat; height: 475px; background-size: cover; background-position: 50% 0%;}
-	 .m_banner .desc {padding: 50px 0 0 0; text-align: center;}
+	 .m_banner .desc {padding: 0px 0 0 0; text-align: center;}
 	 .m_banner .desc .logo {margin: 0;}
 	 .m_banner .desc .logo svg {max-width: 100%; margin-left: -14px;}
 	 .m_banner .desc .title {font-size: 24px; font-weight: 300; color: #fff;}
@@ -134,6 +134,7 @@
 	 .m_banner .count {right: 50%; width: 160px; height: 160px; margin-right: -80px; background-size: 100% 100%; padding: 64px 0 0 0; font-size: 12px; bottom: -80px;}
 	 .m_banner .count strong {font-size: 30px; margin-top: 5px;}
 	 .m_banner .count {bottom: -80px;}
+	 .m_banner .share {bottom: 100px; width: 100%; text-align: center;}
 	 
 	 /*wrapper*/
 	 .wrapper {overflow: hidden;}
@@ -266,6 +267,7 @@
 	 footer .foot_rt a.zvonok_btn {display: none;}
 	 footer .foot_rt .contacts {margin: 0; line-height: 34px;}
 	 footer .foot_rt .contacts .tel {margin: 0; font-size: 12px;}
+	 footer .foot_rt .contacts .tel a:nth-child(2) {display: none;}
 	 footer .foot_rt .contacts .tel strong {font-size: 14px;}
 	 footer .foot_rt .contacts .tel strong span {display: none;}
 	 
